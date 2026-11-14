@@ -1,0 +1,38 @@
+[
+  {
+    "id": "u01", "split": "dev", "type": "thieu_bang_chung",
+    "question": "Mức phạt tiền tối đa đối với tổ chức kinh doanh vi phạm pháp luật về bảo vệ quyền lợi người tiêu dùng là bao nhiêu đồng?",
+    "absence_reason": "Corpus chỉ nói tổ chức vi phạm 'bị xử phạt vi phạm hành chính' và 'Chính phủ quy định chi tiết việc xử phạt' (Luật 59/2010 Điều 11, trang 6); mức phạt nằm ở nghị định xử phạt riêng, không có trong 4 văn bản.",
+    "absence_check": {"terms": ["phạt tiền", "mức phạt", "phạt tối đa"], "related_terms": ["xử phạt"]}
+  },
+  {
+    "id": "u02", "split": "dev", "type": "thieu_bang_chung",
+    "question": "Thời hiệu khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là bao nhiêu năm?",
+    "absence_reason": "Corpus quy định ai được khởi kiện, điều kiện và thủ tục rút gọn nhưng không quy định thời hiệu khởi kiện (thuộc Bộ luật Dân sự / Tố tụng dân sự).",
+    "absence_check": {"terms": ["thời hiệu"], "related_terms": ["khởi kiện"]}
+  },
+  {
+    "id": "u03", "split": "dev", "type": "thieu_bang_chung",
+    "question": "Khi hãng hàng không hủy chuyến bay, người tiêu dùng được hoàn lại bao nhiêu phần trăm giá vé?",
+    "absence_reason": "Không có quy định về vận tải hàng không, vé hay tỷ lệ hoàn tiền. Cụm 'hàng không' trong corpus chỉ xuất hiện trong 'bán hàng không tại địa điểm giao dịch thường xuyên' (bẫy lexical).",
+    "absence_check": {"terms": ["máy bay", "chuyến bay", "giá vé", "phần trăm", "%"], "related_terms": ["hàng không", "hoàn tiền"]}
+  },
+  {
+    "id": "u04", "split": "test", "type": "thieu_bang_chung",
+    "question": "Thời hạn bảo hành tối thiểu bắt buộc đối với điện thoại di động là bao nhiêu tháng?",
+    "absence_reason": "Corpus quy định nghĩa vụ bảo hành và cách tính lại thời hạn bảo hành khi đổi/thay linh kiện, nhưng không đặt thời hạn tối thiểu cho bất kỳ loại hàng hóa nào.",
+    "absence_check": {"terms": ["điện thoại di động", "bảo hành tối thiểu", "tháng bảo hành"], "related_terms": ["thời hạn bảo hành"]}
+  },
+  {
+    "id": "u05", "split": "test", "type": "thieu_bang_chung",
+    "question": "Sàn thương mại điện tử phải khấu trừ thuế thu nhập cá nhân của người bán hàng theo thuế suất bao nhiêu?",
+    "absence_reason": "Corpus chỉ nhắc 'mã số thuế cá nhân' và 'thuế giá trị gia tăng' trong nghĩa vụ cung cấp thông tin (Luật 19/2023 Điều 37); không có quy định khấu trừ thuế hay thuế suất.",
+    "absence_check": {"terms": ["thuế thu nhập", "thuế suất", "khấu trừ"], "related_terms": ["thuế", "thương mại điện tử"]}
+  },
+  {
+    "id": "u06", "split": "test", "type": "thieu_bang_chung",
+    "question": "Chương trình khuyến mại giảm giá cho người tiêu dùng được giảm tối đa bao nhiêu phần trăm giá hàng hóa?",
+    "absence_reason": "Không có quy định về khuyến mại hay mức giảm giá tối đa (thuộc Luật Thương mại và nghị định về khuyến mại).",
+    "absence_check": {"terms": ["khuyến mại", "phần trăm", "%", "giảm giá tối đa"], "related_terms": ["giảm giá"]}
+  }
+]

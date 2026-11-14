@@ -1,0 +1,220 @@
+[
+  {
+    "query_id": "d01",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (ngày 15 tháng 3 hằng năm). Trích dẫn Luật 19/2023 Điều 13 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d02",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (dưới 36 tháng tuổi). Trích dẫn Luật 19/2023 Điều 8 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d03",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (07 ngày làm việc). Cả 2 trích dẫn (Luật 19/2023 Điều 57 và Luật 59/2010 Điều 31) đều hỗ trợ chính xác. (Ghi chú: Ý phụ về việc Luật 2010 'đã hết hiệu lực' là đúng nhưng không có trích dẫn chunk hỗ trợ, đến từ system prompt chứ không hoàn toàn grounded từ context)."
+  },
+  {
+    "query_id": "d04",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (dưới 100 triệu đồng). Cả 3 trích dẫn (Luật 19/2023 Điều 78 sửa BLTTDS, Điều 70 và Luật 59/2010 Điều 41) đều hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d05",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (10 ngày kể từ ngày giao kết hợp đồng theo NĐ 99/2011). Trích dẫn NĐ 99/2011 Điều 17 khoản 3 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d06",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng). Trích dẫn Luật 19/2023 Điều 38 khoản 3 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d07",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (ít nhất 05 năm kinh nghiệm công tác). Trích dẫn NĐ 99/2011 Điều 32 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d08",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (tính lại từ thời điểm đổi mới sản phẩm, hàng hóa). Cả 2 trích dẫn (Luật 2023 Điều 30 và Luật 2010 Điều 21) đều hỗ trợ chính xác. (Ghi chú: Ý phụ về việc Luật 2010 'đã hết hiệu lực' là đúng nhưng không có trích dẫn chunk hỗ trợ, đến từ system prompt chứ không hoàn toàn grounded từ context)."
+  },
+  {
+    "query_id": "d09",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (Có, kèm điều kiện đã áp dụng Điều 32, 33 và người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng). Cả 2 trích dẫn (Luật 19/2023 Điều 35 và Điều 34) đều hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d10",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (Nhóm B). Trích dẫn Luật 19/2023 Điều 33 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d11",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (30 ngày kể từ ngày nhận hồ sơ hợp lệ, gia hạn tối đa không quá 30 ngày). Trích dẫn NĐ 55/2024 Điều 10 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d12",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (tối thiểu 03 ngày làm việc trước khi thực hiện hoạt động). Nhờ cơ chế neighbors, agent đã truy xuất được Điều 26 NĐ 55/2024 và trích dẫn chuẩn xác cả 2 chunk."
+  },
+  {
+    "query_id": "d13",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (nộp vào ngân sách địa phương). Cả 2 trích dẫn (NĐ 55/2024 Điều 28 và Luật 19/2023 Điều 73) đều hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d14",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (từ ngày 01 tháng 7 năm 2011). Trích dẫn Luật 59/2010 Điều 50 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d15",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải). Trích dẫn Luật 59/2010 Điều 36 hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d16",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (trong thời hạn 05 ngày làm việc kể từ ngày nhận được yêu cầu). Cả 2 trích dẫn (NĐ 99/2011 Điều 21 và Điều 20) đều hỗ trợ chính xác."
+  },
+  {
+    "query_id": "d17",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (Không tiếp nhận, trừ trường hợp là người đại diện hợp pháp). Cả 3 trích dẫn (Luật 19/2023 Điều 58, Điều 56 và Điều 57) đều hỗ trợ chính xác. (Ghi chú: Câu thứ hai nói yêu cầu hỗ trợ 'chỉ được gửi bởi người tiêu dùng' hơi quá chữ: Điều 56 khoản 3 trao quyền cho người tiêu dùng nhưng không dùng chữ 'chỉ', và Điều 58 khoản 2 cho phép người đại diện hợp pháp; câu đầu đã nêu đúng ngoại lệ này nên không ảnh hưởng điểm)."
+  },
+  {
+    "query_id": "d18",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường). Cả 2 trích dẫn (NĐ 55/2024 Điều 5 và NĐ 99/2011 Điều 5) đều hỗ trợ chính xác. (Ghi chú: Ý phụ về việc NĐ 99/2011 'đã hết hiệu lực' là đúng nhưng không có trích dẫn chunk hỗ trợ, đến từ system prompt chứ không hoàn toàn grounded từ context)."
+  },
+  {
+    "query_id": "u01",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Câu hỏi thiếu bằng chứng trong corpus (mức phạt tiền tối đa nằm ở nghị định xử phạt vi phạm hành chính riêng). Agent từ chối trả lời chính xác, ngắn gọn và không bịa đặt."
+  },
+  {
+    "query_id": "u02",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Câu hỏi thiếu bằng chứng trong corpus (thời hiệu khởi kiện thuộc pháp luật tố tụng dân sự). Agent từ chối trả lời chính xác."
+  },
+  {
+    "query_id": "u03",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Câu hỏi thiếu bằng chứng trong corpus (không có quy định về vận tải hàng không hay hoàn vé máy bay). Agent từ chối trả lời chính xác."
+  }
+]

@@ -1,5 +1,7 @@
 # Day 7 — Agentic RAG
 
+> **Bài làm — Lê Xuân Hạ · 2A202603571 · L3A.** Báo cáo: [report/individual/2A202603571_LeXuanHa.md](report/individual/2A202603571_LeXuanHa.md) · Code và lệnh chạy: [src/README.md](src/README.md) · Benchmark: [data/benchmark/](data/benchmark/) · Kết quả, trace, nhãn: [results/](results/) · Tiêu chí và cấu hình chốt: [SELECTION_CRITERIA.md](results/agent/dev/SELECTION_CRITERIA.md), [SELECTION.md](results/agent/dev/SELECTION.md), [EXPERIMENTS.md](results/agent/dev/EXPERIMENTS.md). Phần dưới là đề bài gốc.
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

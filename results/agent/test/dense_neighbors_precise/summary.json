@@ -1,0 +1,89 @@
+{
+  "tag": "dense_neighbors_precise",
+  "split": "test",
+  "config": {
+    "name": "dense_neighbors_precise",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "max_searches": 3,
+    "neighbors": true,
+    "prompt": "v2_precise",
+    "model": "claude-haiku-5-5",
+    "effort": "medium",
+    "max_tokens": 16000
+  },
+  "n": 9,
+  "status": {
+    "answered": 6,
+    "abstain": 3
+  },
+  "errors": [],
+  "tool_use": {
+    "n": 9,
+    "N": 9,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 2,
+    "2": 4,
+    "3": 3
+  },
+  "stop_reasons": {
+    "submitted": 6,
+    "model_insufficient_evidence": 3
+  },
+  "answerable": {
+    "context_evidence_rate": {
+      "n": 6,
+      "N": 6,
+      "rate": 1.0
+    },
+    "first_search_evidence_hit3": {
+      "n": 6,
+      "N": 6,
+      "rate": 1.0
+    },
+    "answered": {
+      "n": 6,
+      "N": 6,
+      "rate": 1.0
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 6,
+      "rate": 0.0
+    },
+    "answered_with_cited_evidence_auto": {
+      "n": 6,
+      "N": 6,
+      "rate": 1.0
+    }
+  },
+  "unanswerable": {
+    "abstained": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    }
+  },
+  "citations": {
+    "total": 10,
+    "in_context": 10,
+    "answers_with_citation": {
+      "n": 6,
+      "N": 6,
+      "rate": 1.0
+    }
+  },
+  "tokens": {
+    "input": 76429,
+    "output": 5619
+  },
+  "cost_usd": 0.010452,
+  "latency_s": {
+    "median": 4.72,
+    "max": 7.25
+  },
+  "note": "Grounded answer, citation support và abstention đúng phải do người chấm trong review.json; các trường *_auto chỉ là gợi ý dựa trên gold sau khi chạy."
+}

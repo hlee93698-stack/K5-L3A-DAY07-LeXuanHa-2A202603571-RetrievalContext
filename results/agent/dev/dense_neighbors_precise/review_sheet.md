@@ -1,0 +1,628 @@
+# Review sheet — dev / dense_neighbors_precise
+
+Model claude-haiku-5-5, method dense, top-k 3, budget 6000 ký tự, max_searches 3, neighbors True, prompt v2_precise, effort medium.
+
+## d01 · truc_tiep · có đáp án · status `answered`
+**Hỏi:** Ngày Quyền của người tiêu dùng Việt Nam là ngày nào?
+
+**Đáp án chuẩn:** Ngày 15 tháng 3 hằng năm.
+**Gold:** [{'source_id': 'luat19_2023', 'page': 12, 'evidence': 'Ngày 15 tháng 3 hằng năm là Ngày Quyền của người tiêu dùng Việt Nam.'}]
+
+- search `Ngày Quyền của người tiêu dùng Việt Nam là ngày nào` → mới: C1, C2, C3, C4, C5
+
+**Agent:** Ngày Quyền của người tiêu dùng Việt Nam là ngày 15 tháng 3 hằng năm [struct1000:luat19_2023:p12:o24008:35e7a6e2d5].
+
+> `struct1000:luat19_2023:p12:o24008:35e7a6e2d5` (trang 12): [Luật 19/2023/QH15 · Chương I · Điều 13]
+Điều 13. Ngày Quyền của người tiêu dùng Việt Nam
+1. Ngày 15 tháng 3 hằng năm là Ngày Quyền của người tiêu dùng Việt Nam.
+2. Chính phủ quy định việc tổ chức thực hiện các hoạt động hưởng ứng Ngày
+Quyền của người tiêu dùng Việt Nam.
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d02 · dien_dat_lai · có đáp án · status `answered`
+**Hỏi:** Phụ nữ nuôi con nhỏ dưới bao nhiêu tháng tuổi thì được xếp vào nhóm người tiêu dùng dễ bị tổn thương?
+
+**Đáp án chuẩn:** Phụ nữ đang mang thai hoặc nuôi con dưới 36 tháng tuổi.
+**Gold:** [{'source_id': 'luat19_2023', 'page': 6, 'evidence': 'Phụ nữ đang mang thai hoặc nuôi con dưới 36 tháng tuổi'}]
+
+- search `người tiêu dùng dễ bị tổn thương phụ nữ nuôi con nhỏ dưới tháng tuổi` → mới: C1, C2, C3, C4, C5, C6
+
+**Agent:** Phụ nữ đang mang thai hoặc nuôi con dưới 36 tháng tuổi được xếp vào nhóm người tiêu dùng dễ bị tổn thương theo Luật 19/2023/QH15 [struct1000:luat19_2023:p6:o10517:57d9d82ab1].
+
+> `struct1000:luat19_2023:p6:o10517:57d9d82ab1` (trang 6): [Luật 19/2023/QH15 · Chương I · Điều 8]
+Điều 8. Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương
+1. Người tiêu dùng dễ bị tổn thương là người tiêu dùng có khả năng chịu nhiều
+tác động bất lợi về tiếp cận thông tin, sức khỏe, tài sản, giải quyết tranh chấp tại
+thời điểm mua hoặc sử dụng sản phẩm, hàng hóa, dịch vụ, bao gồm:
+a) Người cao tuổi theo quy định của pháp luật về người cao tuổi;
+b) Người khuyết tật theo quy định của pháp luật về người khuyết tật;
+c) Trẻ em theo quy định của pháp luật về trẻ em;
+d) Người dân tộc thiểu số; người sinh sống tại vùng đồng bào dân tộc thiểu số
+và miền núi, 
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d03 · truc_tiep · có đáp án · status `answered`
+**Hỏi:** Sau khi nhận được yêu cầu thương lượng của người tiêu dùng, doanh nghiệp phải tiến hành thương lượng trong thời hạn bao lâu?
+
+**Đáp án chuẩn:** Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu (Luật 2010 ghi 'không quá 07 ngày làm việc').
+**Gold:** [{'source_id': 'luat19_2023', 'page': 43, 'evidence': 'tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu'}, {'source_id': 'luat59_2010', 'page': 15, 'evidence': 'tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được yêu cầu'}]
+
+- search `thời hạn thương lượng giữa người tiêu dùng và tổ chức, cá nhân kinh doanh sau khi nhận yêu cầu thương lượng` → mới: C1, C2, C3
+- search `Luật bảo vệ quyền lợi người tiêu dùng 2023 thương lượng trong thời hạn ngày kể từ ngày nhận yêu cầu` → mới: —
+
+**Agent:** Theo Luật 19/2023/QH15 (hiện hành), tổ chức, cá nhân kinh doanh có trách nhiệm tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu [struct1000:luat19_2023:p42:o81740:66655aa907]. Lưu ý: Luật 59/2010/QH12 (đã hết hiệu lực) quy định cùng thời hạn không quá 07 ngày làm việc [struct1000:luat59_2010:p15:o28317:6ebef7a16b].
+
+> `struct1000:luat19_2023:p42:o81740:66655aa907` (trang 42,43): [Luật 19/2023/QH15 · Chương V · Điều 57]
+Điều 57. Trình tự, thủ tục thương lượng
+1. Người tiêu dùng gửi yêu cầu thương lượng và thông tin, tài liệu liên quan
+(nếu có) đến tổ chức, cá nhân kinh doanh tại trụ sở chính, chi nhánh, văn phòng đại
+diện, địa điểm kinh doanh, trang thông tin điện tử hoặc thông qua phương thức liên
+lạc khác do tổ chức, cá nhân kinh doanh đã công khai hoặc đang áp dụng.
+2. Tổ chức, cá nhân kinh doanh có trách nhiệm tiếp nhận, tiến hành thương
+lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được
+yêu cầu.
+3. Trong trường hợp quy định tại khoản 3 
+
+> `struct1000:luat59_2010:p15:o28317:6ebef7a16b` (trang 15): [Luật 59/2010/QH12 · Chương IV · Điều 31]
+Mục 1
+THƯƠNG LƯỢNG
+Điều 31. Thương lượng
+1. Người tiêu dùng có quyền gửi yêu cầu đến tổ chức, cá nhân kinh doanh hàng
+hóa, dịch vụ để thương lượng khi cho rằng quyền, lợi ích hợp pháp của mình bị
+xâm phạm.
+2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm tiếp nhận, tiến
+hành thương lượng với người tiêu dùng trong thời hạn không quá 07 ngày làm việc,
+kể từ ngày nhận được yêu cầu.
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d04 · dieu_kien · có đáp án · status `answered`
+**Hỏi:** Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng có giá trị giao dịch bao nhiêu thì được giải quyết theo thủ tục rút gọn mà không phải đáp ứng điều kiện tại khoản 1 Điều 317 Bộ luật Tố tụng dân sự?
+
+**Đáp án chuẩn:** Giá trị giao dịch dưới 100 triệu đồng.
+**Gold:** [{'source_id': 'luat19_2023', 'page': 48, 'evidence': 'có giá trị giao dịch dưới 100 triệu đồng thì được giải quyết theo thủ tục rút gọn'}, {'source_id': 'luat19_2023', 'page': 53, 'evidence': 'có giá trị giao dịch dưới 100 triệu đồng được thực hiện theo quy định tại khoản 2 Điều 70'}]
+
+- search `vụ án bảo vệ quyền lợi người tiêu dùng giải quyết theo thủ tục rút gọn giá trị giao dịch không phải đáp ứng điều kiện khoản 1 Điều 317` → mới: C1, C2, C3, C4
+- search `thủ tục rút gọn tranh chấp người tiêu dùng giá trị giao dịch dưới mức triệu đồng` → mới: C5
+
+**Agent:** Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng có giá trị giao dịch dưới 100 triệu đồng được giải quyết theo thủ tục rút gọn mà không phải đáp ứng các điều kiện quy định tại khoản 1 Điều 317 của Bộ luật Tố tụng dân sự [struct1000:luat19_2023:p48:o90657:402750c2ce]. Quy định này hiện hành theo Luật 19/2023/QH15, bổ sung khoản 5 vào Điều 317 BLTTDS và dẫn chiếu đến khoản 2 Điều 70 Luật Bảo vệ quyền lợi người tiêu dùng [struct1000:luat19_2023:p53:o101188:c6c8fea761]. Luật 59/2010/QH12 trước đây có điều kiện tương tự (giá trị giao dịch dưới 100 triệu đồng) nhưng áp dụng "thủ tục đơn giản" và kèm các điều kiện khác [struct1000:luat59_2010:p17:o31167:936f1ed697].
+
+> `struct1000:luat19_2023:p53:o101188:c6c8fea761` (trang 53): [Luật 19/2023/QH15 · Chương VII · Điều 78]
+2. Sửa đổi, bổ sung một số khoản của Điều 317 như sau:
+a) Sửa đổi, bổ sung đoạn mở đầu khoản 1 như sau:
+“1. Trừ trường hợp quy định tại khoản 5 Điều này, Tòa án giải quyết vụ án
+theo thủ tục rút gọn khi có đủ các điều kiện sau đây:”;
+b) Bổ sung khoản 5 vào sau khoản 4 như sau:
+“5. Điều kiện áp dụng thủ tục rút gọn trong việc giải quyết vụ án dân sự về
+bảo vệ quyền lợi người tiêu dùng có giá trị giao dịch dưới 100 triệu đồng được
+thực hiện theo quy định tại khoản 2 Điều 70 của Luật Bảo vệ quyền lợi người
+tiêu dùng.”.
+
+> `struct1000:luat19_2023:p48:o90657:402750c2ce` (trang 48): [Luật 19/2023/QH15 · Chương V · Điều 70]
+Mục 5
+GIẢI QUYẾT TRANH CHẤP TẠI TÒA ÁN
+Điều 70. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng
+1. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là vụ án mà bên khởi kiện
+là người tiêu dùng hoặc tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng
+theo quy định tại Luật này. Tòa án giải quyết vụ án dân sự về bảo vệ quyền lợi
+người tiêu dùng theo trình tự, thủ tục quy định tại Bộ luật Tố tụng dân sự.
+2. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng có giá trị giao dịch dưới
+100 triệu đồng thì được giải quyết theo thủ tục rút gọn mà không phải 
+
+> `struct1000:luat59_2010:p17:o31167:936f1ed697` (trang 17): [Luật 59/2010/QH12 · Chương IV · Điều 41]
+Mục 4
+GIẢI QUYẾT TRANH CHẤP TẠI TÒA ÁN
+Điều 41. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng
+1. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là vụ án mà bên khởi kiện
+là người tiêu dùng hoặc tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng
+theo quy định của Luật này.
+2. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được giải quyết theo thủ tục
+đơn giản quy định trong pháp luật về tố tụng dân sự khi có đủ các điều kiện sau đây:
+a) Cá nhân là người tiêu dùng khởi kiện; tổ chức, cá nhân trực tiếp cung cấp
+hàng hóa, dịch vụ cho người tiê
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d05 · metadata_filter · có đáp án · status `answered`
+**Hỏi:** Theo quy định cũ (giao dịch xác lập năm 2015), khi giao kết hợp đồng từ xa mà doanh nghiệp cung cấp thông tin không đầy đủ, người tiêu dùng có bao nhiêu ngày để đơn phương chấm dứt hợp đồng?
+
+**Đáp án chuẩn:** Mười (10) ngày kể từ ngày giao kết hợp đồng.
+**Gold:** [{'source_id': 'nd99_2011', 'page': 7, 'evidence': 'trong thời hạn mười (10) ngày kể từ ngày giao kết hợp đồng người tiêu dùng có quyền đơn phương chấm dứt thực hiện hợp đồng'}]
+
+- search `hợp đồng từ xa thông tin không đầy đủ người tiêu dùng đơn phương chấm dứt hợp đồng trong thời hạn ngày` → mới: C1, C2, C3, C4, C5
+- search `Luật bảo vệ quyền lợi người tiêu dùng giao kết hợp đồng từ xa quyền chấm dứt hợp đồng 7 ngày` → mới: —
+
+**Agent:** Theo Nghị định 99/2011/NĐ-CP (Điều 17, khoản 3), trừ trường hợp các bên có thỏa thuận khác, nếu tổ chức, cá nhân kinh doanh cung cấp không đúng, không đầy đủ thông tin khi giao kết hợp đồng từ xa, người tiêu dùng có 10 ngày kể từ ngày giao kết hợp đồng để đơn phương chấm dứt thực hiện hợp đồng và thông báo cho tổ chức, cá nhân kinh doanh [struct1000:nd99_2011:p7:o13693:0ff33631c9]. Người tiêu dùng không phải trả chi phí liên quan đến việc chấm dứt, chỉ phải trả chi phí đối với phần hàng hóa, dịch vụ đã sử dụng [struct1000:nd99_2011:p7:o13693:0ff33631c9].
+
+> `struct1000:nd99_2011:p7:o13693:0ff33631c9` (trang 7): [Nghị định 99/2011/NĐ-CP · Chương III · Điều 17]
+2. Trường hợp việc đề nghị giao kết hợp đồng được thực hiện thông qua điện
+thoại, tổ chức, cá nhân kinh doanh cần phải nói rõ ngay từ đầu về tên, địa chỉ của
+mình và mục đích của cuộc đàm thoại.
+3. Trừ trường hợp các bên có thỏa thuận khác, trong trường hợp tổ chức, cá
+nhân kinh doanh cung cấp không đúng, không đầy đủ thông tin quy định tại khoản
+1 Điều này thì trong thời hạn mười (10) ngày kể từ ngày giao kết hợp đồng người
+tiêu dùng có quyền đơn phương chấm dứt thực hiện hợp đồng đã giao kết và thông
+báo cho tổ chức, cá nhân kinh doanh. Người 
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d06 · metadata_filter · có đáp án · status `answered`
+**Hỏi:** Theo quy định hiện hành, nếu doanh nghiệp giao dịch từ xa cung cấp thông tin không chính xác hoặc không đầy đủ, người tiêu dùng có bao lâu để đơn phương chấm dứt hợp đồng?
+
+**Đáp án chuẩn:** Trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng.
+**Gold:** [{'source_id': 'luat19_2023', 'page': 30, 'evidence': 'Trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng, đơn phương chấm dứt thực hiện hợp đồng đã giao kết'}]
+
+- search `giao dịch từ xa cung cấp thông tin không chính xác không đầy đủ người tiêu dùng đơn phương chấm dứt hợp đồng` → mới: C1, C2, C3, C4, C5, C6, C7
+- search `quyền hủy bỏ hợp đồng giao dịch trực tuyến thời hạn ngày kể từ ngày nhận hàng` → mới: —
+
+**Agent:** Theo Luật 19/2023/QH15, khi tổ chức, cá nhân kinh doanh cung cấp không chính xác hoặc không đầy đủ thông tin trong giao dịch từ xa, người tiêu dùng có quyền đơn phương chấm dứt thực hiện hợp đồng trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng, và phải thông báo cho bên kinh doanh; người tiêu dùng không phải trả chi phí nào để chấm dứt, trừ chi phí đối với phần sản phẩm, hàng hóa, dịch vụ đã sử dụng [struct1000:luat19_2023:p30:o57562:6c1cde9790].
+
+> `struct1000:luat19_2023:p30:o57562:6c1cde9790` (trang 30): [Luật 19/2023/QH15 · Chương III · Điều 38]
+3. Trường hợp tổ chức, cá nhân kinh doanh cung cấp không chính xác hoặc
+không đầy đủ thông tin quy định tại khoản 1 Điều 37 của Luật này, người tiêu
+dùng có quyền sau đây:
+a) Thỏa thuận lựa chọn cách thức xử lý hợp đồng với tổ chức, cá nhân
+kinh doanh;
+b) Trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng, đơn phương chấm
+dứt thực hiện hợp đồng đã giao kết và thông báo cho tổ chức, cá nhân kinh
+doanh. Người tiêu dùng không phải trả bất kỳ chi phí nào dưới mọi hình thức để
+chấm dứt thực hiện hợp đồng, trừ chi phí đối với phần sản phẩm, hàng hóa, dịch
+
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d07 · metadata_filter · có đáp án · status `answered`
+**Hỏi:** Theo Nghị định 99/2011, một công dân muốn làm hòa giải viên tranh chấp tiêu dùng cần tối thiểu bao nhiêu năm kinh nghiệm công tác?
+
+**Đáp án chuẩn:** Ít nhất năm (05) năm kinh nghiệm công tác.
+**Gold:** [{'source_id': 'nd99_2011', 'page': 13, 'evidence': 'Có ít nhất năm (05) năm kinh nghiệm công tác'}]
+
+- search `điều kiện hòa giải viên tranh chấp tiêu dùng số năm kinh nghiệm công tác` → mới: C1, C2, C3
+
+**Agent:** Theo Nghị định 99/2011/NĐ-CP, công dân Việt Nam muốn làm Hòa giải viên phải có ít nhất năm (05) năm kinh nghiệm công tác, cùng với năng lực hành vi dân sự đầy đủ và phẩm chất đạo đức tốt, trung thực [struct1000:nd99_2011:p13:o26250:1da2a24e84].
+
+> `struct1000:nd99_2011:p13:o26250:1da2a24e84` (trang 13): [Nghị định 99/2011/NĐ-CP · Chương VI · Điều 32]
+Điều 32. Hòa giải viên
+1. Công dân Việt Nam có đủ các điều kiện sau đây có thể làm Hòa giải viên:
+a) Có năng lực hành vi dân sự đầy đủ;
+b) Có phẩm chất đạo đức tốt, trung thực;
+c) Có ít nhất năm (05) năm kinh nghiệm công tác.
+2. Người đang bị quản chế hành chính, đang bị truy cứu trách nhiệm hình sự
+hoặc đã bị kết án mà chưa được xóa án tích không được làm Hòa giải viên.
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d08 · dieu_kien · có đáp án · status `answered`
+**Hỏi:** Khi doanh nghiệp đổi sản phẩm mới cho khách trong quá trình bảo hành thì thời hạn bảo hành của sản phẩm đó được tính từ khi nào?
+
+**Đáp án chuẩn:** Tính (lại) từ thời điểm đổi sản phẩm, hàng hóa mới.
+**Gold:** [{'source_id': 'luat19_2023', 'page': 23, 'evidence': 'thời hạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm, hàng hóa'}, {'source_id': 'luat59_2010', 'page': 10, 'evidence': 'được tính từ thời điểm thay thế linh kiện, phụ kiện hoặc đổi hàng hóa mới'}]
+
+- search `thời hạn bảo hành sản phẩm được đổi mới tính từ thời điểm giao hàng` → mới: C1, C2, C3, C4, C5
+- search `bảo hành hàng hóa đổi hàng mới thời hạn bảo hành tính từ khi khách hàng nhận hàng mới` → mới: —
+
+**Agent:** Theo Luật 19/2023/QH15 (hiện hành), khi tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời hạn bảo hành của sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm, hàng hóa [struct1000:luat19_2023:p23:o43993:718ebcc363]. Luật 59/2010/QH12 (đã hết hiệu lực) quy định tương tự: thời hạn bảo hành được tính từ thời điểm đổi hàng hóa mới [struct1000:luat59_2010:p10:o18922:3a430d202c].
+
+> `struct1000:luat19_2023:p23:o43993:718ebcc363` (trang 23): [Luật 19/2023/QH15 · Chương II · Điều 30]
+c) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức
+tiếp nhận bảo hành tương đương khác, trong đó ghi rõ thời gian thực hiện bảo
+hành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành sản phẩm,
+hàng hóa, linh kiện, phụ kiện.
+Trường hợp tổ chức, cá nhân kinh doanh thay thế linh kiện, phụ kiện thì thời
+hạn bảo hành linh kiện, phụ kiện đó được tính lại từ thời điểm thay thế linh kiện,
+phụ kiện.
+Trường hợp tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời
+hạn bảo hành sản phẩm, hàng hóa đó được tính lại từ t
+
+> `struct1000:luat59_2010:p10:o18922:3a430d202c` (trang 10): [Luật 59/2010/QH12 · Chương II · Điều 21]
+Điều 21. Trách nhiệm bảo hành hàng hóa, linh kiện, phụ kiện
+Hàng hóa, linh kiện, phụ kiện được bảo hành theo thỏa thuận của các bên hoặc
+bắt buộc bảo hành theo quy định của pháp luật. Trường hợp hàng hóa, linh kiện, phụ
+kiện được bảo hành, tổ chức, cá nhân kinh doanh hàng hóa có trách nhiệm:
+1. Thực hiện đầy đủ nghĩa vụ bảo hành hàng hóa, linh kiện, phụ kiện do mình
+cung cấp;
+2. Cung cấp cho người tiêu dùng giấy tiếp nhận bảo hành, trong đó ghi rõ thời
+gian thực hiện bảo hành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo
+hành hàng hóa, linh
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d09 · dieu_kien · có đáp án · status `answered`
+**Hỏi:** Doanh nghiệp có được miễn bồi thường nếu đã thông tin đầy đủ mà người tiêu dùng vẫn cố ý dùng sản phẩm có khuyết tật gây thiệt hại không?
+
+**Đáp án chuẩn:** Có, nếu doanh nghiệp đã áp dụng đầy đủ biện pháp tại Điều 32 và 33, người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng.
+**Gold:** [{'source_id': 'luat19_2023', 'page': 27, 'evidence': 'người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng sản phẩm, hàng hóa có khuyết tật gây thiệt hại'}]
+
+- search `miễn trách nhiệm bồi thường thiệt hại sản phẩm khuyết tật lỗi cố ý của người tiêu dùng` → mới: C1, C2, C3, C4
+- search `tổ chức, cá nhant kinh doanh được miễn bồi thường nếu đã cung cấp đầy đủ thông tin người tiêu dùng cố ý sử dụng sản phẩm` → mới: C5, C6, C7
+
+**Agent:** Có, theo Luật 19/2023/QH15 (hiện hành), tổ chức, cá nhân kinh doanh được miễn trách nhiệm bồi thường thiệt hại trong trường hợp: đã áp dụng đầy đủ các biện pháp quy định tại Điều 32 và Điều 33 của Luật, người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng sản phẩm, hàng hóa có khuyết tật gây thiệt hại [struct1000:luat19_2023:p27:o52148:a741b896ef]. Lưu ý: đây là một trong các trường hợp miễn trách nhiệm; trách nhiệm bồi thường của doanh nghiệp đối với sản phẩm khuyết tật vốn áp dụng cả khi không biết hoặc không có lỗi trong việc phát sinh khuyết tật [struct1000:luat19_2023:p26:o50458:e3d6b74804].
+
+> `struct1000:luat19_2023:p27:o52148:a741b896ef` (trang 27): [Luật 19/2023/QH15 · Chương II · Điều 35]
+Điều 35. Miễn trách nhiệm bồi thường thiệt hại do sản phẩm, hàng hóa có
+khuyết tật gây ra
+Tổ chức, cá nhân kinh doanh quy định tại Điều 34 của Luật này được miễn
+trách nhiệm bồi thường thiệt hại trong các trường hợp sau đây:
+1. Khi chứng minh được khuyết tật của sản phẩm, hàng hóa không thể phát
+hiện được với trình độ khoa học, công nghệ của thế giới tính đến thời điểm sản
+phẩm, hàng hóa gây thiệt hại;
+2. Tổ chức, cá nhân kinh doanh đã áp dụng đầy đủ các biện pháp quy định tại
+Điều 32 và Điều 33 của Luật này, người tiêu dùng đã tiếp nhận đầy đủ thông t
+
+> `struct1000:luat19_2023:p26:o50458:e3d6b74804` (trang 26): [Luật 19/2023/QH15 · Chương II · Điều 34]
+Điều 34. Bồi thường thiệt hại do sản phẩm, hàng hóa có khuyết tật gây ra
+1. Tổ chức, cá nhân kinh doanh có trách nhiệm bồi thường thiệt hại trong
+trường hợp sản phẩm, hàng hóa có khuyết tật do mình cung cấp gây thiệt hại đến
+tính mạng, sức khỏe, tài sản của người tiêu dùng, kể cả khi tổ chức, cá nhân đó
+không biết hoặc không có lỗi trong việc phát sinh khuyết tật, trừ trường hợp quy
+định tại Điều 35 của Luật này.
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d10 · dien_dat_lai · có đáp án · status `answered`
+**Hỏi:** Sản phẩm khuyết tật chỉ có thể gây hư hại tài sản của người tiêu dùng thì được xếp vào nhóm nào?
+
+**Đáp án chuẩn:** Nhóm B.
+**Gold:** [{'source_id': 'luat19_2023', 'page': 25, 'evidence': 'Sản phẩm, hàng hóa có khuyết tật nhóm B là sản phẩm, hàng hóa có khả năng gây thiệt hại cho tài sản của người tiêu dùng'}]
+
+- search `sản phẩm khuyết tật chỉ gây hư hại tài sản của người tiêu dùng` → mới: C1, C2, C3, C4, C5, C6, C7
+
+**Agent:** Sản phẩm, hàng hóa có khuyết tật chỉ có khả năng gây thiệt hại cho tài sản của người tiêu dùng được xếp vào nhóm B (sản phẩm, hàng hóa có khuyết tật nhóm B là sản phẩm, hàng hóa có khả năng gây thiệt hại cho tài sản của người tiêu dùng) [struct1000:luat19_2023:p25:o48174:6d057421d8]. Trường hợp có khả năng gây thiệt hại cho cả tính mạng, sức khỏe và tài sản thì áp dụng quy định đối với nhóm A [struct1000:luat19_2023:p25:o48174:6d057421d8].
+
+> `struct1000:luat19_2023:p25:o48174:6d057421d8` (trang 25): [Luật 19/2023/QH15 · Chương II · Điều 33]
+Điều 33. Thu hồi sản phẩm, hàng hóa có khuyết tật
+1. Sản phẩm, hàng hóa có khuyết tật bao gồm:
+a) Sản phẩm, hàng hóa có khuyết tật nhóm A là sản phẩm, hàng hóa có khả
+năng gây thiệt hại cho tính mạng, sức khỏe của người tiêu dùng;
+b) Sản phẩm, hàng hóa có khuyết tật nhóm B là sản phẩm, hàng hóa có khả
+năng gây thiệt hại cho tài sản của người tiêu dùng;
+c) Sản phẩm, hàng hóa có khuyết tật có khả năng gây thiệt hại cho tính mạng,
+sức khỏe, tài sản của người tiêu dùng thì áp dụng các quy định đối với sản phẩm,
+hàng hóa có khuyết tật nhóm A.
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d11 · truc_tiep · có đáp án · status `answered`
+**Hỏi:** Cơ quan tiếp nhận đăng ký có bao nhiêu ngày để thẩm định hồ sơ đăng ký hợp đồng theo mẫu, và có được gia hạn không?
+
+**Đáp án chuẩn:** 30 ngày kể từ ngày nhận hồ sơ hợp lệ; có thể gia hạn thêm tối đa không quá 30 ngày trong trường hợp phức tạp.
+**Gold:** [{'source_id': 'nd55_2024', 'page': 7, 'evidence': 'tiến hành thẩm định hồ sơ đăng ký trong thời hạn 30 ngày, kể từ ngày nhận được hồ sơ hợp lệ'}]
+
+- search `đăng ký hợp đồng theo mẫu thời hạn thẩm định hồ sơ gia hạn` → mới: C1, C2, C3
+- search `cơ quan nhà nước có thẩm quyền tiếp nhận đăng ký hợp đồng mẫu thẩm định trong thời hạn ngày` → mới: C4
+
+**Agent:** Theo Nghị định 55/2024/NĐ-CP, cơ quan có thẩm quyền tiếp nhận đăng ký tiến hành thẩm định hồ sơ trong thời hạn 30 ngày, kể từ ngày nhận được hồ sơ hợp lệ [struct1000:nd55_2024:p7:o11015:ff4cd946d6]. Có gia hạn: trong trường hợp phức tạp, thời hạn có thể được gia hạn thêm tối đa không quá 30 ngày; khi gia hạn, cơ quan phải thông báo kịp thời cho tổ chức, cá nhân kinh doanh về thời gian và lý do gia hạn [struct1000:nd55_2024:p7:o11015:ff4cd946d6].
+
+> `struct1000:nd55_2024:p7:o11015:ff4cd946d6` (trang 7): [Nghị định 55/2024/NĐ-CP · Chương IV · Điều 10]
+Điều 10. Thẩm định hồ sơ đăng ký
+1. Cơ quan có thẩm quyền tiếp nhận đăng ký tiến hành thẩm định hồ sơ đăng
+ký trong thời hạn 30 ngày, kể từ ngày nhận được hồ sơ hợp lệ theo quy định tại
+Điều 9 của Nghị định này và có thể được gia hạn thêm tối đa không quá 30 ngày
+trong trường hợp phức tạp. Trong trường hợp gia hạn, cơ quan có thẩm quyền tiếp
+nhận đăng ký thông báo kịp thời cho tổ chức, cá nhân kinh doanh về thời gian và
+lý do gia hạn.
+2. Trong quá trình thẩm định hồ sơ đăng ký, cơ quan có thẩm quyền tiếp nhận
+đăng ký có quyền yêu cầu tổ chức, cá 
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d12 · truc_tiep · có đáp án · status `answered`
+**Hỏi:** Doanh nghiệp bán hàng không tại địa điểm giao dịch thường xuyên phải gửi hồ sơ thông báo cho Ủy ban nhân dân cấp xã trước ít nhất bao lâu?
+
+**Đáp án chuẩn:** Tối thiểu 03 ngày làm việc trước khi thực hiện hoạt động.
+**Gold:** [{'source_id': 'nd55_2024', 'page': 19, 'evidence': 'tối thiểu 03 ngày làm việc trước khi thực hiện hoạt động'}]
+
+- search `bán hàng không tại địa điểm giao dịch thường xuyên thông báo Ủy ban nhân dân cấp xã trước ít nhất` → mới: C1, C2, C3, C4, C5, C6
+- search `bán hàng đa cấp, bán hàng không tại địa điểm cố định hồ sơ thông báo UBND cấp xã ngày` → mới: —
+
+**Agent:** Hồ sơ thông báo bán hàng không tại địa điểm giao dịch thường xuyên phải được gửi đến Ủy ban nhân dân cấp xã tối thiểu 03 ngày làm việc trước khi thực hiện hoạt động. Thời điểm này căn cứ theo ngày UBND cấp xã nhận ghi trên vận đơn bưu điện (nếu gửi qua bưu điện), ngày ghi trên giấy tiếp nhận hồ sơ (nếu nộp trực tiếp), hoặc thời gian ghi nhận trên hệ thống thư điện tử/dịch vụ công trực tuyến (nếu gửi qua các hình thức đó) [struct1000:nd55_2024:p19:o34899:18bfceb6d6]. Hồ sơ gồm 01 thông báo theo Mẫu số 10 [struct1000:nd55_2024:p18:o34163:5ab6726c74].
+
+> `struct1000:nd55_2024:p19:o34899:18bfceb6d6` (trang 19): [Nghị định 55/2024/NĐ-CP · Chương VI · Điều 26]
+3. Hồ sơ thông báo phải được gửi đến Ủy ban nhân dân cấp xã tối thiểu 03 ngày
+làm việc trước khi thực hiện hoạt động (căn cứ theo ngày Ủy ban nhân dân cấp xã
+nhận ghi trên vận đơn bưu điện hoặc các hình thức có giá trị tương đương trong
+trường hợp gửi qua đường bưu điện, căn cứ theo ngày ghi trên giấy tiếp nhận hồ sơ
+trong trường hợp nộp trực tiếp, căn cứ theo thời gian ghi nhận trên hệ thống thư
+điện tử hoặc căn cứ theo ngày ghi nhận trên hệ thống trong trường hợp nộp qua hệ
+thống dịch vụ công trực tuyến).
+4. Trường hợp sửa đổi, bổ sung nội dung
+
+> `struct1000:nd55_2024:p18:o34163:5ab6726c74` (trang 18): [Nghị định 55/2024/NĐ-CP · Chương VI · Điều 26]
+Điều 26. Thông báo hoạt động bán hàng không tại địa điểm giao dịch
+thường xuyên
+1. Tổ chức, cá nhân kinh doanh thực hiện thông báo đến Ủy ban nhân dân cấp
+xã tại nơi tổ chức bán sản phẩm, hàng hóa, cung cấp dịch vụ theo một trong các
+cách thức sau:
+a) Qua đường bưu điện;
+b) Trực tiếp tại trụ sở Ủy ban nhân dân cấp xã;
+c) Qua thư điện tử kèm chữ ký số hoặc kèm bản scan thông báo có chữ ký và
+đóng dấu của tổ chức, cá nhân kinh doanh đến địa chỉ thư điện tử đã được Ủy ban
+nhân dân cấp xã công bố;
+d) Sử dụng hệ thống dịch vụ công trực tuyến do Ủy ban
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d13 · dieu_kien · có đáp án · status `answered`
+**Hỏi:** Nếu không xác định được người thụ hưởng, tiền bồi thường trong vụ án vì lợi ích công cộng do tổ chức xã hội hoạt động trong phạm vi một tỉnh khởi kiện sẽ được nộp vào đâu?
+
+**Đáp án chuẩn:** Nộp vào ngân sách địa phương.
+**Gold:** [{'source_id': 'nd55_2024', 'page': 20, 'evidence': 'hoạt động trên phạm vi một tỉnh, thành phố trực thuộc Trung ương khởi kiện sẽ nộp vào ngân sách địa phương'}]
+
+- search `tiền bồi thường vụ án lợi ích công cộng không xác định được người thụ hưởng nộp vào ngân sách` → mới: C1, C2, C3
+- search `tổ chức xã hội khởi kiện vì lợi ích công cộng phạm vi một tỉnh tiền bồi thường nộp ngân sách địa phương` → mới: C4
+
+**Agent:** Theo Nghị định 55/2024/NĐ-CP, khi không xác định được đối tượng thụ hưởng, tiền bồi thường thiệt hại trong vụ án do tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hoạt động trên phạm vi một tỉnh, thành phố trực thuộc Trung ương khởi kiện sẽ được nộp vào ngân sách địa phương [struct1000:nd55_2024:p19:o36432:6293df2f55].
+
+Lưu ý: Luật 19/2023/QH15 (Điều 73, khoản 2) quy định trong trường hợp này tiền bồi thường được sử dụng để phục vụ các hoạt động chung vì quyền lợi người tiêu dùng theo quy định của Chính phủ [struct1000:luat19_2023:p49:o93179:f9cfa7804d]; tài liệu không nêu rõ mối quan hệ giữa quy định này và việc nộp vào ngân sách địa phương nêu trên.
+
+> `struct1000:nd55_2024:p19:o36432:6293df2f55` (trang 19,20): [Nghị định 55/2024/NĐ-CP · Chương VII · Điều 28]
+Chương VII
+BỒI THƯỜNG THIỆT HẠI TRONG VỤ ÁN DÂN SỰ VỀ BẢO VỆ
+QUYỀN LỢI NGƯỜI TIÊU DÙNG DO TỔ CHỨC XÃ HỘI
+KHỞI KIỆN VÌ LỢI ÍCH CÔNG CỘNG
+Điều 28. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi
+người tiêu dùng do tổ chức xã hội khởi kiện vì lợi ích công cộng
+Trường hợp không xác định được đối tượng thụ hưởng, tiền bồi thường thiệt
+hại trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng do tổ chức xã hội khởi
+kiện vì lợi ích công cộng sẽ được nộp vào ngân sách nhà nước theo nguyên tắc sau:
+1. Tiền bồi thường thiệt hại của vụ án
+
+> `struct1000:luat19_2023:p49:o93179:f9cfa7804d` (trang 49): [Luật 19/2023/QH15 · Chương V · Điều 73]
+Điều 73. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi
+người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo vệ quyền
+lợi người tiêu dùng khởi kiện
+1. Tiền bồi thường thiệt hại và đối tượng thụ hưởng trong vụ án dân sự về bảo
+vệ quyền lợi người tiêu dùng vì lợi ích công cộng do tổ chức xã hội tham gia bảo
+vệ quyền lợi người tiêu dùng khởi kiện được thực hiện theo bản án, quyết định của
+Tòa án.
+2. Trong trường hợp không xác định được đối tượng thụ hưởng, tiền bồi
+thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi ngư
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d14 · truc_tiep · có đáp án · status `answered`
+**Hỏi:** Luật Bảo vệ quyền lợi người tiêu dùng năm 2010 bắt đầu có hiệu lực thi hành từ ngày nào?
+
+**Đáp án chuẩn:** Từ ngày 01 tháng 7 năm 2011.
+**Gold:** [{'source_id': 'luat59_2010', 'page': 20, 'evidence': 'Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011.'}]
+
+- search `Luật Bảo vệ quyền lợi người tiêu dùng 59/2010/QH12 hiệu lực thi hành` → mới: C1, C2, C3
+
+**Agent:** Luật Bảo vệ quyền lợi người tiêu dùng năm 2010 (Luật 59/2010/QH12) có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011 [struct1000:luat59_2010:p20:o36605:a486b6cb3f].
+
+> `struct1000:luat59_2010:p20:o36605:a486b6cb3f` (trang 20): [Luật 59/2010/QH12 · Chương VI · Điều 50]
+Chương VI
+ĐIỀU KHOẢN THI HÀNH
+Điều 50. Hiệu lực thi hành
+Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011.
+Pháp lệnh bảo vệ quyền lợi người tiêu dùng số 13/1999/PL-UBTVQH10 hết
+hiệu lực kể từ ngày Luật này có hiệu lực.
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d15 · truc_tiep · có đáp án · status `answered`
+**Hỏi:** Biên bản hòa giải tranh chấp tiêu dùng theo Luật 2010 phải có chữ ký của những ai?
+
+**Đáp án chuẩn:** Chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải.
+**Gold:** [{'source_id': 'luat59_2010', 'page': 16, 'evidence': 'Biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải.'}]
+
+- search `biên bản hòa giải tranh chấp tiêu dùng chữ ký` → mới: C1, C2, C3, C4
+
+**Agent:** Theo Điều 36 khoản 2 Luật 59/2010/QH12, biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải [struct1000:luat59_2010:p16:o29636:728a4a2c0c].
+
+> `struct1000:luat59_2010:p16:o29636:728a4a2c0c` (trang 16): [Luật 59/2010/QH12 · Chương IV · Điều 36]
+Điều 36. Biên bản hòa giải
+1. Biên bản hòa giải phải có các nội dung chính sau đây:
+a) Tổ chức, cá nhân tiến hành hòa giải;
+b) Các bên tham gia hòa giải;
+c) Nội dung hòa giải;
+d) Thời gian, địa điểm tiến hành hòa giải;
+đ) Ý kiến của các bên tham gia hòa giải;
+e) Kết quả hòa giải;
+g) Thời hạn thực hiện kết quả hòa giải thành.
+2. Biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác
+nhận của tổ chức, cá nhân tiến hành hòa giải.
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d16 · metadata_filter · có đáp án · status `answered`
+**Hỏi:** Theo quy định trước năm 2024, nếu yêu cầu bảo vệ quyền lợi người tiêu dùng gửi cơ quan nhà nước còn thiếu nội dung thì người tiêu dùng phải bổ sung trong bao lâu?
+
+**Đáp án chuẩn:** Trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được yêu cầu bổ sung của cơ quan có thẩm quyền.
+**Gold:** [{'source_id': 'nd99_2011', 'page': 9, 'evidence': 'Việc bổ sung phải được thực hiện trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được yêu cầu của cơ quan có thẩm quyền.'}]
+
+- search `yêu cầu bảo vệ quyền lợi người tiêu dùng thiếu nội dung bổ sung trong thời hạn` → mới: C1, C2, C3, C4
+- search `Luật 59/2010 yêu cầu của người tiêu dùng gửi cơ quan nhà nước không đầy đủ nội dung phải bổ sung` → mới: C5, C6, C7
+
+**Agent:** Theo Nghị định 99/2011/NĐ-CP, nếu yêu cầu bảo vệ quyền lợi người tiêu dùng thiếu các nội dung quy định tại Điều 20, cơ quan có thẩm quyền yêu cầu người tiêu dùng (hoặc tổ chức xã hội) bổ sung, và việc bổ sung phải được thực hiện trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được yêu cầu của cơ quan có thẩm quyền [struct1000:nd99_2011:p9:o19006:a4b10855a6].
+
+Các nội dung bắt buộc của yêu cầu gồm: thông tin về tổ chức, cá nhân kinh doanh vi phạm; thông tin về người tiêu dùng hoặc tổ chức xã hội yêu cầu; nội dung vụ việc; yêu cầu cụ thể; và tài liệu, chứng cứ kèm theo [struct1000:nd99_2011:p9:o18244:7a5cc2ba37].
+
+> `struct1000:nd99_2011:p9:o19006:a4b10855a6` (trang 9): [Nghị định 99/2011/NĐ-CP · Chương IV · Điều 21]
+Điều 21. Thủ tục tiếp nhận yêu cầu
+1. Trường hợp yêu cầu bảo vệ quyền lợi người tiêu dùng được lập bằng văn
+bản, cán bộ phụ trách tiếp nhận có trách nhiệm xem xét và tiếp nhận yêu cầu.
+Trường hợp yêu cầu bảo vệ quyền lợi người tiêu dùng được trình bày trực tiếp,
+cán bộ phụ trách tiếp nhận phải lập thành văn bản và yêu cầu người tiêu dùng hoặc
+người đại diện của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng ký tên
+hoặc điểm chỉ xác nhận vào văn bản đó.
+2. Trường hợp yêu cầu bảo vệ quyền lợi người tiêu dùng thiếu các nội dung
+quy định tạ
+
+> `struct1000:nd99_2011:p9:o18244:7a5cc2ba37` (trang 9): [Nghị định 99/2011/NĐ-CP · Chương IV · Điều 20]
+Chương IV
+GIẢI QUYẾT YÊU CẦU BẢO VỆ QUYỀN LỢI NGƯỜI TIÊU DÙNG
+Điều 20. Hình thức, nội dung của yêu cầu bảo vệ quyền lợi người tiêu dùng
+1. Người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng
+có quyền yêu cầu cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng
+theo quy định tại Điều 25 Luật Bảo vệ quyền lợi người tiêu dùng. Việc yêu cầu có
+thể được thực hiện bằng văn bản hoặc yêu cầu trực tiếp.
+2. Yêu cầu bảo vệ quyền lợi người tiêu dùng phải có các nội dung sau:
+a) Thông tin về tổ chức, cá nhân kinh doanh vi phạm;
+b
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d17 · ngoai_le · có đáp án · status `answered`
+**Hỏi:** Cơ quan quản lý nhà nước có tiếp nhận yêu cầu hỗ trợ thương lượng nếu người gửi yêu cầu không phải là người tiêu dùng không?
+
+**Đáp án chuẩn:** Không; đây là một trường hợp không tiếp nhận và giải quyết yêu cầu hỗ trợ thương lượng (trừ khi là người đại diện hợp pháp của người tiêu dùng).
+**Gold:** [{'source_id': 'luat19_2023', 'page': 43, 'evidence': 'Người yêu cầu hỗ trợ thương lượng không phải là người tiêu dùng hoặc người đại diện hợp pháp của người tiêu dùng.'}]
+
+- search `tiếp nhận yêu cầu hỗ trợ thương lượng người tiêu dùng cơ quan nhà nước` → mới: C1, C2, C3, C4
+- search `hỗ trợ người tiêu dùng khởi kiện, yêu cầu hỗ trợ điều kiện tổ chức, cá nhân không phải là người tiêu dùng` → mới: C5, C6
+
+**Agent:** Không. Theo Điều 58 khoản 2 Luật 19/2023/QH15, cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng không tiếp nhận và giải quyết yêu cầu hỗ trợ thương lượng trong trường hợp người yêu cầu không phải là người tiêu dùng hoặc người đại diện hợp pháp của người tiêu dùng [struct1000:luat19_2023:p43:o83500:77d12f7b8e]. Yêu cầu hỗ trợ thương lượng chỉ được gửi bởi người tiêu dùng khi quyền, lợi ích hợp pháp bị xâm phạm và tổ chức, cá nhân kinh doanh không trả lời hoặc từ chối thương lượng không có lý do chính đáng [struct1000:luat19_2023:p42:o81059:c6b7a6e583], [struct1000:luat19_2023:p42:o81740:66655aa907].
+
+> `struct1000:luat19_2023:p43:o83500:77d12f7b8e` (trang 43,44): [Luật 19/2023/QH15 · Chương V · Điều 58]
+Điều 58. Trường hợp không tiếp nhận và giải quyết yêu cầu hỗ trợ
+thương lượng
+1. Người tiêu dùng là người chưa thành niên, người mất năng lực hành vi dân
+sự hoặc hạn chế năng lực hành vi dân sự hoặc có khó khăn trong nhận thức, làm
+chủ hành vi mà không có người đại diện hợp pháp.
+2. Người yêu cầu hỗ trợ thương lượng không phải là người tiêu dùng hoặc
+người đại diện hợp pháp của người tiêu dùng.
+3. Người tiêu dùng không cung cấp đầy đủ thông tin, tài liệu để xác định chính
+xác tổ chức, cá nhân có liên quan hoặc bằng chứng liên quan đến giao dịch.
+4. Nội 
+
+> `struct1000:luat19_2023:p42:o81059:c6b7a6e583` (trang 42): [Luật 19/2023/QH15 · Chương V · Điều 56]
+Mục 2
+THƯƠNG LƯỢNG
+Điều 56. Yêu cầu và tiếp nhận thương lượng
+1. Người tiêu dùng có quyền yêu cầu tổ chức, cá nhân kinh doanh thương lượng.
+2. Tổ chức, cá nhân kinh doanh phải tiếp nhận yêu cầu thương lượng của người
+tiêu dùng theo quy định tại Điều 57 của Luật này.
+3. Trường hợp tổ chức, cá nhân kinh doanh không trả lời yêu cầu thương lượng
+của người tiêu dùng theo quy định tại Điều 57 của Luật này hoặc từ chối thương
+lượng mà không có lý do chính đáng, người tiêu dùng có quyền yêu cầu cơ quan
+quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ ch
+
+> `struct1000:luat19_2023:p42:o81740:66655aa907` (trang 42,43): [Luật 19/2023/QH15 · Chương V · Điều 57]
+Điều 57. Trình tự, thủ tục thương lượng
+1. Người tiêu dùng gửi yêu cầu thương lượng và thông tin, tài liệu liên quan
+(nếu có) đến tổ chức, cá nhân kinh doanh tại trụ sở chính, chi nhánh, văn phòng đại
+diện, địa điểm kinh doanh, trang thông tin điện tử hoặc thông qua phương thức liên
+lạc khác do tổ chức, cá nhân kinh doanh đã công khai hoặc đang áp dụng.
+2. Tổ chức, cá nhân kinh doanh có trách nhiệm tiếp nhận, tiến hành thương
+lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được
+yêu cầu.
+3. Trong trường hợp quy định tại khoản 3 
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## d18 · dien_dat_lai · có đáp án · status `answered`
+**Hỏi:** Ban quản lý chợ phải bố trí thiết bị gì để khách hàng tự kiểm tra khối lượng hàng hóa đã mua?
+
+**Đáp án chuẩn:** Đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường tại chợ, trung tâm thương mại.
+**Gold:** [{'source_id': 'nd55_2024', 'page': 4, 'evidence': 'Đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường tại các chợ, trung tâm thương mại'}, {'source_id': 'nd99_2011', 'page': 3, 'evidence': 'Đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường tại các chợ, trung tâm thương mại'}]
+
+- search `ban quản lý chợ bố trí thiết bị cân để người tiêu dùng kiểm tra khối lượng hàng hóa` → mới: C1, C2, C3, C4, C5, C6
+
+**Agent:** Tổ chức quản lý chợ phải đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường tại chợ để người tiêu dùng tự kiểm tra về số lượng, khối lượng hàng hóa [struct1000:nd55_2024:p4:o5678:237102acac]. Cân đối chứng, thiết bị đo lường này phải được kiểm định và còn trong thời hạn kiểm định theo quy định của pháp luật về đo lường [struct1000:nd55_2024:p4:o5678:237102acac]. Quy định tương tự cũng có trong Nghị định 99/2011/NĐ-CP (đã hết hiệu lực) [struct1000:nd99_2011:p2:o3495:14baf53701].
+
+> `struct1000:nd55_2024:p4:o5678:237102acac` (trang 4): [Nghị định 55/2024/NĐ-CP · Chương III · Điều 5]
+Điều 5. Trách nhiệm của tổ chức quản lý chợ, trung tâm thương mại
+1. Ban hành nội quy theo quy định của pháp luật trong đó phải có các nội dung
+cơ bản về bảo vệ quyền lợi người tiêu dùng, bao gồm: quyền và trách nhiệm của
+người tiêu dùng, người bán hàng; người có trách nhiệm tiếp nhận, giải quyết yêu
+cầu, phản ánh của người tiêu dùng và biện pháp xử lý vi phạm.
+2. Hòa giải tranh chấp giữa người tiêu dùng và người bán hàng trong phạm vi
+chợ, trung tâm thương mại khi được yêu cầu.
+3. Đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường tại
+
+> `struct1000:nd99_2011:p2:o3495:14baf53701` (trang 2,3): [Nghị định 99/2011/NĐ-CP · Chương II · Điều 5]
+Điều 5. Trách nhiệm của Ban quản lý chợ, thương nhân kinh doanh chợ,
+trung tâm thương mại
+1. Ban hành nội quy theo quy định của pháp luật trong đó phải có các nội dung
+cơ bản về bảo vệ quyền lợi người tiêu dùng, bao gồm:
+a) Quyền và trách nhiệm của người tiêu dùng;
+b) Quyền và trách nhiệm của người bán hàng;
+c) Người có trách nhiệm tiếp nhận, giải quyết yêu cầu, phản ánh của người tiêu
+dùng;
+d) Biện pháp xử lý vi phạm.
+2. Hòa giải tranh chấp giữa người tiêu dùng và người bán hàng trong phạm vi
+chợ, trung tâm thương mại khi được yêu cầu.
+3. Đặt và 
+
+_auto: context có evidence = True, citation chứa evidence = True_
+
+---
+
+## u01 · thieu_bang_chung · THIẾU BẰNG CHỨNG · status `abstain`
+**Hỏi:** Mức phạt tiền tối đa đối với tổ chức kinh doanh vi phạm pháp luật về bảo vệ quyền lợi người tiêu dùng là bao nhiêu đồng?
+
+**Lý do thiếu:** Corpus chỉ nói tổ chức vi phạm 'bị xử phạt vi phạm hành chính' và 'Chính phủ quy định chi tiết việc xử phạt' (Luật 59/2010 Điều 11, trang 6); mức phạt nằm ở nghị định xử phạt riêng, không có trong 4 văn bản.
+
+- search `mức phạt tiền tối đa đối với tổ chức vi phạm pháp luật bảo vệ quyền lợi người tiêu dùng` → mới: C1, C2, C3, C4
+- search `xử phạt vi phạm hành chính lĩnh vực bảo vệ người tiêu dùng mức phạt tiền tổ chức đồng` → mới: C5, C6, C7
+- search `Nghị định 55/2024 xử phạt vi phạm quyền lợi người tiêu dùng tổ chức phạt tiền` → mới: C8
+
+**Agent:** Tài liệu không đủ bằng chứng để trả lời mức phạt tiền tối đa đối với tổ chức kinh doanh vi phạm pháp luật về bảo vệ quyền lợi người tiêu dùng. Các đoạn tìm được không nêu con số mức phạt tiền tối đa.
+
+
+---
+
+## u02 · thieu_bang_chung · THIẾU BẰNG CHỨNG · status `abstain`
+**Hỏi:** Thời hiệu khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là bao nhiêu năm?
+
+**Lý do thiếu:** Corpus quy định ai được khởi kiện, điều kiện và thủ tục rút gọn nhưng không quy định thời hiệu khởi kiện (thuộc Bộ luật Dân sự / Tố tụng dân sự).
+
+- search `thời hiệu khởi kiện vụ án dân sự bảo vệ quyền lợi người tiêu dùng` → mới: C1, C2, C3, C4
+- search `thời hiệu khởi kiện 02 năm quyền yêu cầu bảo vệ quyền lợi người tiêu dùng` → mới: C5, C6
+- search `thời hiệu yêu cầu giải quyết tranh chấp người tiêu dùng` → mới: C7, C8
+
+**Agent:** Tài liệu hiện có không đủ bằng chứng để trả lời: các đoạn tìm được không quy định thời hiệu khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng (số năm). Các đoạn tìm được chỉ quy định về điều kiện tổ chức xã hội tự khởi kiện vụ án vì lợi ích công cộng, thủ tục giải quyết vụ án theo thủ tục đơn giản và các phương thức giải quyết tranh chấp, không nêu thời hiệu.
+
+
+---
+
+## u03 · thieu_bang_chung · THIẾU BẰNG CHỨNG · status `abstain`
+**Hỏi:** Khi hãng hàng không hủy chuyến bay, người tiêu dùng được hoàn lại bao nhiêu phần trăm giá vé?
+
+**Lý do thiếu:** Không có quy định về vận tải hàng không, vé hay tỷ lệ hoàn tiền. Cụm 'hàng không' trong corpus chỉ xuất hiện trong 'bán hàng không tại địa điểm giao dịch thường xuyên' (bẫy lexical).
+
+- search `hãng hàng không hủy chuyến bay hoàn lại tiền vé tỷ lệ phần trăm` → mới: C1, C2, C3, C4, C5, C6
+- search `hủy chuyến bay người tiêu dùng được hoàn trả giá vé phần trăm Nghị định 55/2024` → mới: C7
+- search `vận chuyển hàng không chậm chuyến hủy chuyến bay hoàn tiền vé phần trăm giá vé` → mới: —
+
+**Agent:** Tài liệu hiện có không đủ bằng chứng để trả lời. Các đoạn tìm được chỉ quy định về việc hoàn trả tiền khi người tiêu dùng đơn phương chấm dứt hợp đồng (trong 30 ngày, theo phương thức đã thanh toán), không có quy định nào về tỷ lệ phần trăm giá vé được hoàn lại khi hãng hàng không hủy chuyến bay.
+
+
+---

@@ -1,0 +1,1134 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "type": "metadata_filter",
+    "answerable": true,
+    "question": "Theo quy định hiện hành, hòa giải viên thuộc tổ chức hòa giải tranh chấp tiêu dùng cần có kỹ năng và hiểu biết gì?",
+    "query": "Theo quy định hiện hành, hòa giải viên thuộc tổ chức hòa giải tranh chấp tiêu dùng cần có kỹ năng và hiểu biết gì?",
+    "query_rewritten": null,
+    "filter": {
+      "legal_regime": "2023"
+    },
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 361.0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:luat19_2023:p46:o87407:a734a81d41",
+        "source_id": "luat19_2023",
+        "page": 46,
+        "page_end": 46,
+        "score": 0.890447,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 64]\nĐiều 64. Hòa giải viên\nHòa giải viên hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân\nkinh doanh bao gồm:\n1"
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat19_2023:p45:o86700:780a5f6dc9",
+        "source_id": "luat19_2023",
+        "page": 45,
+        "page_end": 45,
+        "score": 0.882534,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 63]\nĐiều 63. Tổ chức hòa giải\n1. Tổ chức hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh\ndoanh bao gồm:\na"
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:luat19_2023:p46:o88049:b8fc1828dd",
+        "source_id": "luat19_2023",
+        "page": 46,
+        "page_end": 46,
+        "score": 0.871149,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 64]\n3. Trường hợp tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh\nmà có người dân tộc thiểu số thì phải có í"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:luat19_2023:p45:o86103:04b0ddab26",
+        "source_id": "luat19_2023",
+        "page": 45,
+        "page_end": 45,
+        "score": 0.851398,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 61]\nMục 3\nHÒA GIẢI\nĐiều 61. Trình tự, thủ tục hòa giải\n1. Tổ chức, cá nhân kinh doanh và người tiêu dùng có quyền thỏa thuậ"
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:luat19_2023:p7:o13280:6d4dbeac02",
+        "source_id": "luat19_2023",
+        "page": 7,
+        "page_end": 8,
+        "score": 0.842249,
+        "text_preview": "[Luật 19/2023/QH15 · Chương I · Điều 8]\n3. Khi giao dịch với người tiêu dùng dễ bị tổn thương, tổ chức, cá nhân kinh\ndoanh có trách nhiệm sau đây:\na) Bảo đảm vi"
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:luat19_2023:p41:o79506:3742d9892e",
+        "source_id": "luat19_2023",
+        "page": 41,
+        "page_end": 42,
+        "score": 0.841335,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 54]\nChương V\nGIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG\nVÀ TỔ CHỨC, CÁ NHÂN KINH DOANH\nMục 1\nQUY ĐỊNH CHUNG\nĐiều 54. Phương"
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:nd55_2024:p10:o18020:0de422c3b4",
+        "source_id": "nd55_2024",
+        "page": 10,
+        "page_end": 10,
+        "score": 0.837705,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương IV · Điều 16]\n2. Trong trường hợp cần thiết, cơ quan quản lý nhà nước về bảo vệ quyền lợi\nngười tiêu dùng tham vấn ý kiến của "
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat19_2023:p42:o80400:e1272b4d1b",
+        "source_id": "luat19_2023",
+        "page": 42,
+        "page_end": 42,
+        "score": 0.837519,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 55]\nĐiều 55. Trách nhiệm cung cấp thông tin, tài liệu trong quá trình giải\nquyết tranh chấp giữa người tiêu dùng và tổ chức"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:luat19_2023:p43:o83500:77d12f7b8e",
+        "source_id": "luat19_2023",
+        "page": 43,
+        "page_end": 44,
+        "score": 0.835706,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 58]\nĐiều 58. Trường hợp không tiếp nhận và giải quyết yêu cầu hỗ trợ\nthương lượng\n1. Người tiêu dùng là người chưa thành ni"
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:nd55_2024:p9:o16017:0353a7b779",
+        "source_id": "nd55_2024",
+        "page": 9,
+        "page_end": 9,
+        "score": 0.834346,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương IV · Điều 15]\n2. Tổ chức, cá nhân kinh doanh có trách nhiệm phối hợp với cơ quan quản lý\nnhà nước về bảo vệ quyền lợi người ti"
+      }
+    ],
+    "context": "[struct1000:luat19_2023:p46:o87407:a734a81d41 | Luật 19/2023/QH15 | trang 46]\n[Luật 19/2023/QH15 · Chương V · Điều 64]\nĐiều 64. Hòa giải viên\nHòa giải viên hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân\nkinh doanh bao gồm:\n1. Hòa giải viên theo quy định của pháp luật về hòa giải có liên quan;\n2. Hòa giải viên thuộc tổ chức quy định tại điểm a và điểm c khoản 1 Điều 63\ncủa Luật này là công dân Việt Nam đáp ứng đủ các điều kiện sau đây:\na) Có năng lực hành vi dân sự đầy đủ;\nb) Có phẩm chất đạo đức tốt, trung thực, có uy tín;\nc) Có kỹ năng hòa giải, hiểu biết pháp luật về bảo vệ quyền lợi người tiêu dùng\nvà pháp luật khác có liên quan;\nd) Không đang trong thời gian bị truy cứu trách nhiệm hình sự hoặc đã bị kết\nán mà chưa được xóa án tích.\n\n[struct1000:luat19_2023:p45:o86700:780a5f6dc9 | Luật 19/2023/QH15 | trang 45]\n[Luật 19/2023/QH15 · Chương V · Điều 63]\nĐiều 63. Tổ chức hòa giải\n1. Tổ chức hòa giải tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh\ndoanh bao gồm:\na) Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng;\nb) Tổ chức hòa giải theo quy định của pháp luật về hòa giải thương mại, pháp\nluật về hòa giải tại cơ sở, pháp luật về hòa giải tại tòa án;\nc) Tổ chức khác có chức năng hòa giải tranh chấp giữa người tiêu dùng và tổ\nchức, cá nhân kinh doanh theo quy định của pháp luật.\n2. Tổ chức hòa giải theo quy định tại điểm a và điểm c khoản 1 Điều này có\ntrách nhiệm công nhận, công bố Danh sách hòa giải viên đủ điều kiện theo quy\nđịnh của Luật này và chỉ định các hòa giải viên tham gia thực hiện việc hòa giải\ntheo yêu cầu của các bên.\n\n[struct1000:luat19_2023:p46:o88049:b8fc1828dd | Luật 19/2023/QH15 | trang 46]\n[Luật 19/2023/QH15 · Chương V · Điều 64]\n3. Trường hợp tranh chấp giữa người tiêu dùng và tổ chức, cá nhân kinh doanh\nmà có người dân tộc thiểu số thì phải có ít nhất 01 hòa giải viên là người dân tộc\nthiểu số hoặc là người sử dụng thông thạo tiếng của dân tộc thiểu số đó. Trường\nhợp không có hòa giải viên đáp ứng yêu cầu tại khoản này thì các bên tham gia hòa\ngiải tự bố trí phiên dịch hoặc đề nghị hòa giải viên bố trí phiên dịch, trừ trường hợp\ncác bên có thỏa thuận khác.",
+    "context_ids": [
+      "struct1000:luat19_2023:p46:o87407:a734a81d41",
+      "struct1000:luat19_2023:p45:o86700:780a5f6dc9",
+      "struct1000:luat19_2023:p46:o88049:b8fc1828dd"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2144,
+    "budget_chars": 3000,
+    "hit_at_rank": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "type": "metadata_filter",
+    "answerable": true,
+    "question": "Với hàng hóa bán năm 2015 (áp dụng luật cũ), khi phát hiện khuyết tật, nhà sản xuất phải thông báo công khai việc thu hồi trên báo hoặc đài như thế nào?",
+    "query": "Với hàng hóa bán năm 2015 (áp dụng luật cũ), khi phát hiện khuyết tật, nhà sản xuất phải thông báo công khai việc thu hồi trên báo hoặc đài như thế nào?",
+    "query_rewritten": null,
+    "filter": {
+      "legal_regime": "2010"
+    },
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 108.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:luat59_2010:p11:o20713:5dcc945667",
+        "source_id": "luat59_2010",
+        "page": 11,
+        "page_end": 11,
+        "score": 0.889513,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 22]\nĐiều 22. Trách nhiệm thu hồi hàng hóa có khuyết tật\nKhi phát hiện hàng hóa có khuyết tật, tổ chức, cá nhân sản xuất, n"
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat59_2010:p11:o21551:4652bf1c96",
+        "source_id": "luat59_2010",
+        "page": 11,
+        "page_end": 11,
+        "score": 0.870644,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 22]\n3. Thực hiện việc thu hồi hàng hóa có khuyết tật đúng nội dung đã thông báo\ncông khai và chịu các chi phí phát sinh tr"
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:luat59_2010:p12:o23098:d7ebcf0af8",
+        "source_id": "luat59_2010",
+        "page": 12,
+        "page_end": 12,
+        "score": 0.847295,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 24]\nĐiều 24. Miễn trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật\ngây ra\nTổ chức, cá nhân kinh doanh hàng hóa q"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:luat59_2010:p2:o1584:3321fb01bb",
+        "source_id": "luat59_2010",
+        "page": 2,
+        "page_end": 2,
+        "score": 0.845209,
+        "text_preview": "[Luật 59/2010/QH12 · Chương I · Điều 3]\n3. Hàng hóa có khuyết tật là hàng hóa không bảo đảm an toàn cho người tiêu\ndùng, có khả năng gây thiệt hại cho tính mạng"
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:luat59_2010:p11:o22057:afb8efe8be",
+        "source_id": "luat59_2010",
+        "page": 11,
+        "page_end": 12,
+        "score": 0.844259,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 23]\nĐiều 23. Trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật gây ra\n1. Tổ chức, cá nhân kinh doanh hàng hóa có "
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:luat59_2010:p18:o32730:04ec60af26",
+        "source_id": "luat59_2010",
+        "page": 18,
+        "page_end": 18,
+        "score": 0.829313,
+        "text_preview": "[Luật 59/2010/QH12 · Chương IV · Điều 44]\nĐiều 44. Thông báo thông tin về vụ án dân sự về bảo vệ quyền lợi người tiêu\ndùng do tổ chức xã hội khởi kiện\n1. Tổ chứ"
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:luat59_2010:p7:o13287:cb5a468f66",
+        "source_id": "luat59_2010",
+        "page": 7,
+        "page_end": 8,
+        "score": 0.828015,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 13]\n2. Trường hợp tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ cung cấp thông tin\ncho người tiêu dùng thông qua phương ti"
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat59_2010:p3:o4605:d6072956c7",
+        "source_id": "luat59_2010",
+        "page": 3,
+        "page_end": 3,
+        "score": 0.826614,
+        "text_preview": "[Luật 59/2010/QH12 · Chương I · Điều 6]\n2. Trường hợp thu thập, sử dụng, chuyển giao thông tin của người tiêu dùng thì\ntổ chức, cá nhân kinh doanh hàng hóa, dịc"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:luat59_2010:p13:o24942:c560409fd1",
+        "source_id": "luat59_2010",
+        "page": 13,
+        "page_end": 13,
+        "score": 0.823259,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 26]\n3. Biện pháp khắc phục hậu quả quy định tại điểm b khoản 2 Điều này bao gồm:\na) Buộc tổ chức, cá nhân kinh doanh hàng "
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:luat59_2010:p12:o24132:83fccebb68",
+        "source_id": "luat59_2010",
+        "page": 12,
+        "page_end": 13,
+        "score": 0.822403,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 26]\nĐiều 26. Giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng\n1. Khi nhận được yêu cầu của người tiêu dùng, cơ quan quả"
+      }
+    ],
+    "context": "[struct1000:luat59_2010:p11:o20713:5dcc945667 | Luật 59/2010/QH12 | trang 11]\n[Luật 59/2010/QH12 · Chương II · Điều 22]\nĐiều 22. Trách nhiệm thu hồi hàng hóa có khuyết tật\nKhi phát hiện hàng hóa có khuyết tật, tổ chức, cá nhân sản xuất, nhập khẩu hàng\nhóa có trách nhiệm:\n1. Kịp thời tiến hành mọi biện pháp cần thiết để ngừng việc cung cấp hàng hóa\ncó khuyết tật trên thị trường;\n2. Thông báo công khai về hàng hóa có khuyết tật và việc thu hồi hàng hóa đó ít\nnhất 05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài phát thanh, truyền\nhình tại địa phương mà hàng hóa đó được lưu thông với các nội dung sau đây:\na) Mô tả hàng hóa phải thu hồi;\nb) Lý do thu hồi hàng hóa và cảnh báo nguy cơ thiệt hại do khuyết tật của hàng\nhóa gây ra;\nc) Thời gian, địa điểm, phương thức thu hồi hàng hóa;\nd) Thời gian, phương thức khắc phục khuyết tật của hàng hóa;\nđ) Các biện pháp cần thiết để bảo vệ quyền lợi người tiêu dùng trong quá trình\nthu hồi hàng hóa;\n\n[struct1000:luat59_2010:p11:o21551:4652bf1c96 | Luật 59/2010/QH12 | trang 11]\n[Luật 59/2010/QH12 · Chương II · Điều 22]\n3. Thực hiện việc thu hồi hàng hóa có khuyết tật đúng nội dung đã thông báo\ncông khai và chịu các chi phí phát sinh trong quá trình thu hồi;\n4. Báo cáo kết quả cho cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu\ndùng cấp tỉnh nơi thực hiện thu hồi hàng hóa có khuyết tật sau khi hoàn thành việc\nthu hồi; trường hợp việc thu hồi hàng hóa có khuyết tật được tiến hành trên địa bàn\ntừ hai tỉnh trở lên thì báo cáo kết quả cho cơ quan quản lý nhà nước về bảo vệ quyền\nlợi người tiêu dùng ở trung ương.\n\n[struct1000:luat59_2010:p12:o23098:d7ebcf0af8 | Luật 59/2010/QH12 | trang 12]\n[Luật 59/2010/QH12 · Chương II · Điều 24]\nĐiều 24. Miễn trách nhiệm bồi thường thiệt hại do hàng hóa có khuyết tật\ngây ra\nTổ chức, cá nhân kinh doanh hàng hóa quy định tại Điều 23 của Luật này được\nmiễn trách nhiệm bồi thường thiệt hại khi chứng minh được khuyết tật của hàng hóa\nkhông thể phát hiện được với trình độ khoa học, kỹ thuật tại thời điểm tổ chức, cá\nnhân kinh doanh hàng hóa cung cấp cho người tiêu dùng.",
+    "context_ids": [
+      "struct1000:luat59_2010:p11:o20713:5dcc945667",
+      "struct1000:luat59_2010:p11:o21551:4652bf1c96",
+      "struct1000:luat59_2010:p12:o23098:d7ebcf0af8"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2081,
+    "budget_chars": 3000,
+    "hit_at_rank": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "type": "ngoai_le",
+    "answerable": true,
+    "question": "Tổ chức xã hội khởi kiện vụ án dân sự vì lợi ích công cộng để bảo vệ người tiêu dùng có phải chịu án phí không?",
+    "query": "Tổ chức xã hội khởi kiện vụ án dân sự vì lợi ích công cộng để bảo vệ người tiêu dùng có phải chịu án phí không?",
+    "query_rewritten": null,
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 80.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:luat19_2023:p48:o91525:df6fcf7de1",
+        "source_id": "luat19_2023",
+        "page": 48,
+        "page_end": 48,
+        "score": 0.913587,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 71]\nĐiều 71. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Án phí đối với vụ án dân sự về bảo vệ quyền"
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat19_2023:p40:o77136:14e8c73743",
+        "source_id": "luat19_2023",
+        "page": 40,
+        "page_end": 40,
+        "score": 0.908257,
+        "text_preview": "[Luật 19/2023/QH15 · Chương IV · Điều 50]\n2. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có quyền tự mình\nkhởi kiện vụ án dân sự về bảo vệ quyền lợ"
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:nd99_2011:p11:o23052:276160613a",
+        "source_id": "nd99_2011",
+        "page": 11,
+        "page_end": 11,
+        "score": 0.903504,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương V · Điều 25]\nĐiều 25. Nghĩa vụ của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu\ndùng khi tự mình khởi kiện vụ án bảo vệ"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:luat19_2023:p49:o93179:f9cfa7804d",
+        "source_id": "luat19_2023",
+        "page": 49,
+        "page_end": 49,
+        "score": 0.899082,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 73]\nĐiều 73. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi\nngười tiêu dùng vì lợi ích công cộng do tổ ch"
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:luat59_2010:p18:o33966:392fd8a30b",
+        "source_id": "luat59_2010",
+        "page": 18,
+        "page_end": 18,
+        "score": 0.897749,
+        "text_preview": "[Luật 59/2010/QH12 · Chương IV · Điều 46]\nĐiều 46. Tiền bồi thường thiệt hại trong vụ án dân sự về bảo vệ quyền lợi\nngười tiêu dùng do tổ chức xã hội khởi kiện "
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:luat59_2010:p17:o32352:c3fc6341fc",
+        "source_id": "luat59_2010",
+        "page": 17,
+        "page_end": 17,
+        "score": 0.895281,
+        "text_preview": "[Luật 59/2010/QH12 · Chương IV · Điều 43]\nĐiều 43. Án phí, lệ phí Tòa án đối với vụ án dân sự về bảo vệ quyền lợi\nngười tiêu dùng\n1. Án phí, lệ phí Tòa án đối v"
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:luat19_2023:p48:o92237:d25ab75d91",
+        "source_id": "luat19_2023",
+        "page": 48,
+        "page_end": 49,
+        "score": 0.89143,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 72]\nĐiều 72. Công khai thông tin về vụ án dân sự về bảo vệ quyền lợi người\ntiêu dùng vì lợi ích công cộng do tổ chức xã hội"
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat59_2010:p18:o32730:04ec60af26",
+        "source_id": "luat59_2010",
+        "page": 18,
+        "page_end": 18,
+        "score": 0.89095,
+        "text_preview": "[Luật 59/2010/QH12 · Chương IV · Điều 44]\nĐiều 44. Thông báo thông tin về vụ án dân sự về bảo vệ quyền lợi người tiêu\ndùng do tổ chức xã hội khởi kiện\n1. Tổ chứ"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:luat19_2023:p48:o90657:402750c2ce",
+        "source_id": "luat19_2023",
+        "page": 48,
+        "page_end": 48,
+        "score": 0.887413,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 70]\nMục 5\nGIẢI QUYẾT TRANH CHẤP TẠI TÒA ÁN\nĐiều 70. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bảo"
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:luat59_2010:p17:o31167:936f1ed697",
+        "source_id": "luat59_2010",
+        "page": 17,
+        "page_end": 17,
+        "score": 0.883685,
+        "text_preview": "[Luật 59/2010/QH12 · Chương IV · Điều 41]\nMục 4\nGIẢI QUYẾT TRANH CHẤP TẠI TÒA ÁN\nĐiều 41. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bả"
+      }
+    ],
+    "context": "[struct1000:luat19_2023:p48:o91525:df6fcf7de1 | Luật 19/2023/QH15 | trang 48]\n[Luật 19/2023/QH15 · Chương V · Điều 71]\nĐiều 71. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Án phí đối với vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được thực\nhiện theo quy định của pháp luật về án phí, lệ phí Tòa án và quy định của Luật này.\n2. Người tiêu dùng khởi kiện vụ án dân sự bảo vệ quyền, lợi ích hợp pháp của\nmình, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng đại diện cho người\ntiêu dùng theo ủy quyền khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu\ndùng không phải nộp tiền tạm ứng án phí.\n3. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng khởi kiện vụ án\ndân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng không phải nộp\ntiền tạm ứng án phí, không phải chịu án phí.\n\n[struct1000:luat19_2023:p40:o77136:14e8c73743 | Luật 19/2023/QH15 | trang 40]\n[Luật 19/2023/QH15 · Chương IV · Điều 50]\n2. Tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có quyền tự mình\nkhởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng vì lợi ích công cộng\nkhi có đủ các điều kiện sau đây:\na) Được thành lập hợp pháp theo quy định của pháp luật;\nb) Có tôn chỉ, mục đích hoạt động vì quyền lợi người tiêu dùng hoặc vì lợi ích\ncông cộng liên quan đến quyền lợi người tiêu dùng;\nc) Có thời gian hoạt động tối thiểu 01 năm kể từ ngày tổ chức xã hội được\nthành lập đến ngày tổ chức xã hội thực hiện quyền tự khởi kiện;\nd) Có phạm vi hoạt động từ cấp huyện trở lên.\n\n[struct1000:nd99_2011:p11:o23052:276160613a | Nghị định 99/2011/NĐ-CP | trang 11]\n[Nghị định 99/2011/NĐ-CP · Chương V · Điều 25]\nĐiều 25. Nghĩa vụ của tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu\ndùng khi tự mình khởi kiện vụ án bảo vệ người tiêu dùng vì lợi ích công cộng\nKhi tự mình khởi kiện vụ án bảo vệ quyền lợi người tiêu dùng vì lợi ích công\ncộng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng có nghĩa vụ sau:\n1. Thông báo thông tin về nội dung vụ án theo quy định tại Điều 44 Luật Bảo\nvệ quyền lợi người tiêu dùng.\n2. Đảm bảo quyền tham gia vụ án của những người tiêu dùng có liên quan đến\nvụ án.\n3. Chịu các chi phí phát sinh trong quá trình khởi kiện.",
+    "context_ids": [
+      "struct1000:luat19_2023:p48:o91525:df6fcf7de1",
+      "struct1000:luat19_2023:p40:o77136:14e8c73743",
+      "struct1000:nd99_2011:p11:o23052:276160613a"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2194,
+    "budget_chars": 3000,
+    "hit_at_rank": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "answerable": true,
+    "question": "Nền tảng số lớn có chức năng tìm kiếm phải công khai điều gì về cách sắp xếp thứ tự hiển thị sản phẩm?",
+    "query": "Nền tảng số lớn có chức năng tìm kiếm phải công khai điều gì về cách sắp xếp thứ tự hiển thị sản phẩm?",
+    "query_rewritten": null,
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 78.0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:nd55_2024:p15:o28119:fd491db37d",
+        "source_id": "nd55_2024",
+        "page": 15,
+        "page_end": 15,
+        "score": 0.873275,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương VI · Điều 23]\nĐiều 23. Trách nhiệm của tổ chức thiết lập, vận hành nền tảng số lớn\n1. Công bố công khai tiêu chí xác định ưu t"
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat19_2023:p31:o61053:8d0a648bcd",
+        "source_id": "luat19_2023",
+        "page": 31,
+        "page_end": 32,
+        "score": 0.838995,
+        "text_preview": "[Luật 19/2023/QH15 · Chương III · Điều 39]\ne) Chỉ định, công bố công khai đầu mối tiếp nhận và giải quyết phản ánh, yêu\ncầu, khiếu nại của người tiêu dùng liên "
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:luat19_2023:p32:o62812:ad7002ed3f",
+        "source_id": "luat19_2023",
+        "page": 32,
+        "page_end": 32,
+        "score": 0.836713,
+        "text_preview": "[Luật 19/2023/QH15 · Chương III · Điều 39]\n4. Tổ chức thiết lập, vận hành nền tảng số lớn phải thực hiện quy định tại\nkhoản 3 Điều này và có trách nhiệm sau đây"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:nd55_2024:p16:o29561:def91fa1d2",
+        "source_id": "nd55_2024",
+        "page": 16,
+        "page_end": 16,
+        "score": 0.834597,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương VI · Điều 23]\nđ) Việc công bố công khai các nội dung sửa đổi, bổ sung quy chế của nền tảng\nsố trung gian trong kỳ báo cáo; phâ"
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:nd55_2024:p17:o31250:e2182d7dd5",
+        "source_id": "nd55_2024",
+        "page": 17,
+        "page_end": 17,
+        "score": 0.834036,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương VI · Điều 23]\n3. Tổ chức thiết lập, vận hành nền tảng số lớn có trách nhiệm cung cấp thông\ntin, dữ liệu tại khoản 2 Điều này b"
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:luat19_2023:p11:o20451:99c865484a",
+        "source_id": "luat19_2023",
+        "page": 11,
+        "page_end": 11,
+        "score": 0.833077,
+        "text_preview": "[Luật 19/2023/QH15 · Chương I · Điều 10]\n3. Tổ chức, cá nhân kinh doanh thiết lập, vận hành, cung cấp dịch vụ nền tảng\nsố bị nghiêm cấm thực hiện các hành vi sa"
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:nd55_2024:p2:o1924:896a51f6f9",
+        "source_id": "nd55_2024",
+        "page": 2,
+        "page_end": 2,
+        "score": 0.832704,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương I · Điều 2]\n2. Nền tảng số lớn quy định tại khoản 4 Điều 39 Luật Bảo vệ quyền lợi người\ntiêu dùng là nền tảng số phục vụ giao "
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat19_2023:p31:o59646:f648e75a0e",
+        "source_id": "luat19_2023",
+        "page": 31,
+        "page_end": 31,
+        "score": 0.825096,
+        "text_preview": "[Luật 19/2023/QH15 · Chương III · Điều 39]\n3. Ngoài trách nhiệm quy định tại khoản 2 Điều này, tổ chức thiết lập, vận\nhành nền tảng số trung gian có trách nhiệm"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:nd55_2024:p16:o30477:8a6cb1702c",
+        "source_id": "nd55_2024",
+        "page": 16,
+        "page_end": 16,
+        "score": 0.82453,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương VI · Điều 23]\nk) Việc minh bạch hoạt động quảng cáo trên không gian mạng theo quy định\ncủa pháp luật trong trường hợp có hoạt "
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:luat19_2023:p31:o60306:6783eda0ab",
+        "source_id": "luat19_2023",
+        "page": 31,
+        "page_end": 31,
+        "score": 0.821168,
+        "text_preview": "[Luật 19/2023/QH15 · Chương III · Điều 39]\nd) Cho phép người tiêu dùng phản hồi, đánh giá về tổ chức, cá nhân kinh\ndoanh, sản phẩm, hàng hóa, dịch vụ do tổ chức"
+      }
+    ],
+    "context": "[struct1000:nd55_2024:p15:o28119:fd491db37d | Nghị định 55/2024/NĐ-CP | trang 15]\n[Nghị định 55/2024/NĐ-CP · Chương VI · Điều 23]\nĐiều 23. Trách nhiệm của tổ chức thiết lập, vận hành nền tảng số lớn\n1. Công bố công khai tiêu chí xác định ưu tiên hiển thị sản phẩm, hàng hóa,\ndịch vụ nếu nền tảng số có chức năng tìm kiếm. Trường hợp nội dung hiển thị là\nnội dung có thu phí hoặc được tài trợ thì phải công khai tại kết quả tìm kiếm sản\nphẩm, hàng hóa, dịch vụ.\nViệc xây dựng và công bố áp dụng các tiêu chí để xác định việc ưu tiên hiển\nthị sản phẩm, hàng hóa, dịch vụ khi sử dụng chức năng tìm kiếm phải tuân thủ các\nquy định của pháp luật có liên quan.\n\n[struct1000:luat19_2023:p31:o61053:8d0a648bcd | Luật 19/2023/QH15 | trang 31,32]\n[Luật 19/2023/QH15 · Chương III · Điều 39]\ne) Chỉ định, công bố công khai đầu mối tiếp nhận và giải quyết phản ánh, yêu\ncầu, khiếu nại của người tiêu dùng liên quan đến sản phẩm, hàng hóa, dịch vụ, nội\ndung thông tin trên nền tảng số trung gian; tiếp nhận và giải quyết phản ánh, yêu\ncầu, khiếu nại của người tiêu dùng đối với tổ chức thiết lập, vận hành nền tảng số\ntrung gian;\ng) Có biện pháp cho phép hiển thị ưu tiên đánh giá, phản ánh, kiến nghị của tổ\nchức xã hội tham gia bảo vệ quyền lợi người tiêu dùng hoặc tổ chức đánh giá tín\nnhiệm theo quy định của pháp luật;\nh) Trực tiếp lưu trữ thông tin hoặc cung cấp giải pháp lưu trữ thông tin về sản\nphẩm, hàng hóa, dịch vụ và các giao dịch liên quan, cho phép người tiêu dùng truy\ncập, truy vết, tải, lưu trữ và in hóa đơn, chứng từ, tài liệu liên quan đến giao dịch\ntrên nền tảng số trung gian mà mình quản lý;\ni) Minh bạch hoạt động quảng cáo trên không gian mạng theo quy định của\npháp luật trong trường hợp có hoạt động quảng cáo;\n\n[struct1000:luat19_2023:p32:o62812:ad7002ed3f | Luật 19/2023/QH15 | trang 32]\n[Luật 19/2023/QH15 · Chương III · Điều 39]\n4. Tổ chức thiết lập, vận hành nền tảng số lớn phải thực hiện quy định tại\nkhoản 3 Điều này và có trách nhiệm sau đây:\na) Thiết lập kho lưu trữ quảng cáo có sử dụng thuật toán để hướng đến người\ntiêu dùng, nhóm người tiêu dùng cụ thể;\nb) Đánh giá định kỳ hoạt động kiểm duyệt nội dung, việc sử dụng hệ thống\nthuật toán và quảng cáo hướng đến người tiêu dùng, nhóm người tiêu dùng cụ thể;\nc) Đánh giá định kỳ việc thực hiện quy định xử lý tài khoản giả, việc sử dụng\ntrí tuệ nhân tạo, các giải pháp tự động toàn bộ hoặc tự động một phần.\n5. Chính phủ quy định chi tiết khoản 4 Điều này.",
+    "context_ids": [
+      "struct1000:nd55_2024:p15:o28119:fd491db37d",
+      "struct1000:luat19_2023:p31:o61053:8d0a648bcd",
+      "struct1000:luat19_2023:p32:o62812:ad7002ed3f"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2433,
+    "budget_chars": 3000,
+    "hit_at_rank": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "type": "dieu_kien",
+    "answerable": true,
+    "question": "Theo Nghị định 99/2011, cơ quan có thẩm quyền phải trả lời yêu cầu bảo vệ quyền lợi người tiêu dùng hợp lệ trong bao lâu, và có được gia hạn không?",
+    "query": "Theo Nghị định 99/2011, cơ quan có thẩm quyền phải trả lời yêu cầu bảo vệ quyền lợi người tiêu dùng hợp lệ trong bao lâu, và có được gia hạn không?",
+    "query_rewritten": null,
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 84.3,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:nd99_2011:p10:o19823:86f6e9534d",
+        "source_id": "nd99_2011",
+        "page": 10,
+        "page_end": 10,
+        "score": 0.910353,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương IV · Điều 22]\nĐiều 22. Giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng\n1. Sau khi tiếp nhận yêu cầu bảo vệ quyền lợi người"
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat59_2010:p12:o24132:83fccebb68",
+        "source_id": "luat59_2010",
+        "page": 12,
+        "page_end": 13,
+        "score": 0.884685,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 26]\nĐiều 26. Giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng\n1. Khi nhận được yêu cầu của người tiêu dùng, cơ quan quả"
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:nd99_2011:p9:o18244:7a5cc2ba37",
+        "source_id": "nd99_2011",
+        "page": 9,
+        "page_end": 9,
+        "score": 0.884233,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương IV · Điều 20]\nChương IV\nGIẢI QUYẾT YÊU CẦU BẢO VỆ QUYỀN LỢI NGƯỜI TIÊU DÙNG\nĐiều 20. Hình thức, nội dung của yêu cầu bảo vệ qu"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:nd99_2011:p1:o0:b5902ad75e",
+        "source_id": "nd99_2011",
+        "page": 1,
+        "page_end": 1,
+        "score": 0.879116,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Phần mở đầu]\nCHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập à Tự do à Hạnh phúc\nSố: 99/2011/NĐqCP Hà Nội, ngày 27 tháng 10 năm "
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:nd99_2011:p9:o19006:a4b10855a6",
+        "source_id": "nd99_2011",
+        "page": 9,
+        "page_end": 9,
+        "score": 0.876002,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương IV · Điều 21]\nĐiều 21. Thủ tục tiếp nhận yêu cầu\n1. Trường hợp yêu cầu bảo vệ quyền lợi người tiêu dùng được lập bằng văn\nbản,"
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:nd99_2011:p1:o440:79d8c206c4",
+        "source_id": "nd99_2011",
+        "page": 1,
+        "page_end": 1,
+        "score": 0.87506,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương I · Điều 1]\nChương I\nNHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh\nNghị định này quy định về bảo vệ người tiêu dùng trong gi"
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:nd99_2011:p10:o20511:cdb481c78d",
+        "source_id": "nd99_2011",
+        "page": 10,
+        "page_end": 10,
+        "score": 0.872308,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương IV · Điều 22]\n3. Trong quá trình giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng, nếu cơ\nquan có thẩm quyền xác định vụ vi"
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat59_2010:p20:o36605:a486b6cb3f",
+        "source_id": "luat59_2010",
+        "page": 20,
+        "page_end": 20,
+        "score": 0.871851,
+        "text_preview": "[Luật 59/2010/QH12 · Chương VI · Điều 50]\nChương VI\nĐIỀU KHOẢN THI HÀNH\nĐiều 50. Hiệu lực thi hành\nLuật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011.\nPh"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:nd55_2024:p20:o37370:f0a380d02e",
+        "source_id": "nd55_2024",
+        "page": 20,
+        "page_end": 20,
+        "score": 0.870193,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương VIII · Điều 29]\nChương VIII\nĐIỀU KHOẢN THI HÀNH\nĐiều 29. Hiệu lực thi hành\n1. Nghị định này có hiệu lực thi hành kể từ ngày 01"
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:luat59_2010:p19:o35962:833feaca4b",
+        "source_id": "luat59_2010",
+        "page": 19,
+        "page_end": 19,
+        "score": 0.869539,
+        "text_preview": "[Luật 59/2010/QH12 · Chương V · Điều 49]\nĐiều 49. Trách nhiệm của Ủy ban nhân dân các cấp\n1. Ban hành theo thẩm quyền hoặc trình cơ quan nhà nước có thẩm quyền "
+      }
+    ],
+    "context": "[struct1000:nd99_2011:p10:o19823:86f6e9534d | Nghị định 99/2011/NĐ-CP | trang 10]\n[Nghị định 99/2011/NĐ-CP · Chương IV · Điều 22]\nĐiều 22. Giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng\n1. Sau khi tiếp nhận yêu cầu bảo vệ quyền lợi người tiêu dùng, cơ quan có\nthẩm quyền tiến hành giải quyết yêu cầu. Trường hợp cần thiết, cơ quan có thẩm\nquyền có quyền yêu cầu các bên giải trình, cung cấp thêm thông tin, tài liệu phục\nvụ cho việc giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng.\n2. Trong thời hạn mười lăm (15) ngày làm việc kể từ ngày tiếp nhận yêu cầu\nbảo vệ quyền lợi người tiêu dùng hợp lệ, cơ quan có thẩm quyền phải trả lời theo\nquy định tại Điều 26 Luật Bảo vệ quyền lợi người tiêu dùng. Trường hợp vụ việc\nphức tạp, thời hạn trả lời có thể được gia hạn nhưng không quá mười lăm (15)\nngày làm việc.\n\n[struct1000:luat59_2010:p12:o24132:83fccebb68 | Luật 59/2010/QH12 | trang 12,13]\n[Luật 59/2010/QH12 · Chương II · Điều 26]\nĐiều 26. Giải quyết yêu cầu bảo vệ quyền lợi người tiêu dùng\n1. Khi nhận được yêu cầu của người tiêu dùng, cơ quan quản lý nhà nước về bảo\nvệ quyền lợi người tiêu dùng cấp huyện có trách nhiệm yêu cầu các bên giải trình,\ncung cấp thông tin, bằng chứng hoặc tự mình xác minh, thu thập thông tin, bằng\nchứng để xử lý theo quy định của pháp luật.\n2. Cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng cấp huyện có\ntrách nhiệm trả lời bằng văn bản việc giải quyết yêu cầu bảo vệ quyền lợi người tiêu\ndùng; trường hợp xác định tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ vi phạm\nquyền lợi người tiêu dùng, văn bản trả lời phải có các nội dung sau đây:\na) Nội dung vi phạm;\nb) Biện pháp khắc phục hậu quả;\nc) Thời hạn thực hiện biện pháp khắc phục hậu quả;\nd) Biện pháp xử lý vi phạm hành chính, nếu có.\n\n[struct1000:nd99_2011:p9:o18244:7a5cc2ba37 | Nghị định 99/2011/NĐ-CP | trang 9]\n[Nghị định 99/2011/NĐ-CP · Chương IV · Điều 20]\nChương IV\nGIẢI QUYẾT YÊU CẦU BẢO VỆ QUYỀN LỢI NGƯỜI TIÊU DÙNG\nĐiều 20. Hình thức, nội dung của yêu cầu bảo vệ quyền lợi người tiêu dùng\n1. Người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng\ncó quyền yêu cầu cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng\ntheo quy định tại Điều 25 Luật Bảo vệ quyền lợi người tiêu dùng. Việc yêu cầu có\nthể được thực hiện bằng văn bản hoặc yêu cầu trực tiếp.\n2. Yêu cầu bảo vệ quyền lợi người tiêu dùng phải có các nội dung sau:\na) Thông tin về tổ chức, cá nhân kinh doanh vi phạm;\nb) Thông tin về tổ chức xã hội hoặc người tiêu dùng yêu cầu;\nc) Nội dung vụ việc;\nd) Yêu cầu cụ thể của người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền\nlợi người tiêu dùng;\nđ) Tài liệu, chứng cứ kèm theo.",
+    "context_ids": [
+      "struct1000:nd99_2011:p10:o19823:86f6e9534d",
+      "struct1000:luat59_2010:p12:o24132:83fccebb68",
+      "struct1000:nd99_2011:p9:o18244:7a5cc2ba37"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2642,
+    "budget_chars": 3000,
+    "hit_at_rank": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "type": "dieu_kien",
+    "answerable": true,
+    "question": "Sản phẩm đã bảo hành bao nhiêu lần trong thời hạn bảo hành mà vẫn không khắc phục được lỗi thì doanh nghiệp phải đổi mới hoặc trả lại tiền?",
+    "query": "Sản phẩm đã bảo hành bao nhiêu lần trong thời hạn bảo hành mà vẫn không khắc phục được lỗi thì doanh nghiệp phải đổi mới hoặc trả lại tiền?",
+    "query_rewritten": null,
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 77.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:luat59_2010:p10:o19730:b0d3056cc8",
+        "source_id": "luat59_2010",
+        "page": 10,
+        "page_end": 10,
+        "score": 0.868026,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 21]\n3. Cung cấp cho người tiêu dùng hàng hóa, linh kiện, phụ kiện tương tự để sử\ndụng tạm thời hoặc có hình thức giải quyế"
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat19_2023:p23:o44830:caf2bc912f",
+        "source_id": "luat19_2023",
+        "page": 23,
+        "page_end": 23,
+        "score": 0.867509,
+        "text_preview": "[Luật 19/2023/QH15 · Chương II · Điều 30]\nđ) Đổi sản phẩm, hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi sản\nphẩm, hàng hóa, linh kiện, phụ kiện và tr"
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:luat19_2023:p23:o43993:718ebcc363",
+        "source_id": "luat19_2023",
+        "page": 23,
+        "page_end": 23,
+        "score": 0.850218,
+        "text_preview": "[Luật 19/2023/QH15 · Chương II · Điều 30]\nc) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức\ntiếp nhận bảo hành tương đương khác, trong đ"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:luat59_2010:p10:o18922:3a430d202c",
+        "source_id": "luat59_2010",
+        "page": 10,
+        "page_end": 10,
+        "score": 0.848157,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 21]\nĐiều 21. Trách nhiệm bảo hành hàng hóa, linh kiện, phụ kiện\nHàng hóa, linh kiện, phụ kiện được bảo hành theo thỏa thuậ"
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:nd55_2024:p9:o16353:d63ce236ef",
+        "source_id": "nd55_2024",
+        "page": 9,
+        "page_end": 9,
+        "score": 0.838433,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương IV · Điều 15]\n3. Tổ chức, cá nhân kinh doanh phải sửa đổi, hủy bỏ nội dung vi phạm trong\nthời hạn 30 ngày, kể từ ngày nhận đượ"
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:nd55_2024:p11:o20828:6bd2515141",
+        "source_id": "nd55_2024",
+        "page": 11,
+        "page_end": 12,
+        "score": 0.83545,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương V · Điều 18]\n2. Trường hợp sản phẩm, hàng hóa có khuyết tật thuộc nhóm B theo quy định\ntại điểm b khoản 1 Điều 33 Luật Bảo vệ "
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:nd55_2024:p13:o24585:ce82184ea7",
+        "source_id": "nd55_2024",
+        "page": 13,
+        "page_end": 13,
+        "score": 0.833823,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương V · Điều 20]\n3. Tổ chức, cá nhân kinh doanh có trách nhiệm tự mình xác định chính xác\nnhóm sản phẩm, hàng hóa có khuyết tật để"
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat19_2023:p22:o43307:eca23b8ccc",
+        "source_id": "luat19_2023",
+        "page": 22,
+        "page_end": 22,
+        "score": 0.832618,
+        "text_preview": "[Luật 19/2023/QH15 · Chương II · Điều 30]\nĐiều 30. Bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện\n1. Sản phẩm, hàng hóa, linh kiện, phụ kiện được bảo hành the"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:nd99_2011:p8:o16023:6e1c7339d4",
+        "source_id": "nd99_2011",
+        "page": 8,
+        "page_end": 8,
+        "score": 0.832419,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương III · Điều 18]\n4. Tổ chức, cá nhân cung cấp dịch vụ có nghĩa vụ sau:\na) Trừ trường hợp các bên có thỏa thuận khác, không được "
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:nd99_2011:p2:o2685:741a60930e",
+        "source_id": "nd99_2011",
+        "page": 2,
+        "page_end": 2,
+        "score": 0.830568,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương II · Điều 4]\n4. Đổi hàng hóa hoặc trả lại tiền và nhận lại hàng hóa cho người tiêu dùng\ntrong trường hợp hàng hóa do mình cung"
+      }
+    ],
+    "context": "[struct1000:luat59_2010:p10:o19730:b0d3056cc8 | Luật 59/2010/QH12 | trang 10]\n[Luật 59/2010/QH12 · Chương II · Điều 21]\n3. Cung cấp cho người tiêu dùng hàng hóa, linh kiện, phụ kiện tương tự để sử\ndụng tạm thời hoặc có hình thức giải quyết khác được người tiêu dùng chấp nhận\ntrong thời gian thực hiện bảo hành;\n4. Đổi hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi hàng hóa, linh\nkiện, phụ kiện và trả lại tiền cho người tiêu dùng trong trường hợp hết thời gian thực\nhiện bảo hành mà không sửa chữa được hoặc không khắc phục được lỗi.\n5. Đổi hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi hàng hóa và trả\nlại tiền cho người tiêu dùng trong trường hợp đã thực hiện bảo hành hàng hóa, linh\nkiện, phụ kiện từ ba lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục\nđược lỗi;\n6. Chịu chi phí sửa chữa, vận chuyển hàng hóa, linh kiện, phụ kiện đến nơi bảo\nhành và từ nơi bảo hành đến nơi cư trú của người tiêu dùng;\n\n[struct1000:luat19_2023:p23:o44830:caf2bc912f | Luật 19/2023/QH15 | trang 23]\n[Luật 19/2023/QH15 · Chương II · Điều 30]\nđ) Đổi sản phẩm, hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi sản\nphẩm, hàng hóa, linh kiện, phụ kiện và trả lại tiền cho người tiêu dùng trong\ntrường hợp hết thời gian thực hiện bảo hành mà không sửa chữa được hoặc không\nkhắc phục được lỗi hoặc trong trường hợp đã thực hiện bảo hành sản phẩm, hàng\nhóa, linh kiện, phụ kiện từ 03 lần trở lên trong thời hạn bảo hành mà vẫn không\nkhắc phục được lỗi;\ne) Chịu chi phí sửa chữa, vận chuyển sản phẩm, hàng hóa, linh kiện, phụ kiện\ntừ nơi ở của người tiêu dùng hoặc nơi sử dụng sản phẩm, hàng hóa, linh kiện, phụ\nkiện đến nơi bảo hành và từ nơi bảo hành đến nơi ở của người tiêu dùng hoặc nơi\nsử dụng sản phẩm, hàng hóa, linh kiện, phụ kiện;\ng) Chịu trách nhiệm về việc bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện\ncho người tiêu dùng cả trong trường hợp ủy quyền hoặc thuê tổ chức, cá nhân khác\nthực hiện việc bảo hành.\n\n[struct1000:luat19_2023:p23:o43993:718ebcc363 | Luật 19/2023/QH15 | trang 23]\n[Luật 19/2023/QH15 · Chương II · Điều 30]\nc) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức\ntiếp nhận bảo hành tương đương khác, trong đó ghi rõ thời gian thực hiện bảo\nhành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành sản phẩm,\nhàng hóa, linh kiện, phụ kiện.\nTrường hợp tổ chức, cá nhân kinh doanh thay thế linh kiện, phụ kiện thì thời\nhạn bảo hành linh kiện, phụ kiện đó được tính lại từ thời điểm thay thế linh kiện,\nphụ kiện.\nTrường hợp tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời\nhạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm,\nhàng hóa;\nd) Cung cấp cho người tiêu dùng sản phẩm, hàng hóa, linh kiện, phụ kiện\ntương tự để sử dụng tạm thời hoặc có hình thức giải quyết phù hợp theo thỏa\nthuận giữa người tiêu dùng và tổ chức, cá nhân kinh doanh trong thời gian thực\nhiện bảo hành;",
+    "context_ids": [
+      "struct1000:luat59_2010:p10:o19730:b0d3056cc8",
+      "struct1000:luat19_2023:p23:o44830:caf2bc912f",
+      "struct1000:luat19_2023:p23:o43993:718ebcc363"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2895,
+    "budget_chars": 3000,
+    "hit_at_rank": [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "hit10": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "answerable": false,
+    "question": "Thời hạn bảo hành tối thiểu bắt buộc đối với điện thoại di động là bao nhiêu tháng?",
+    "query": "Thời hạn bảo hành tối thiểu bắt buộc đối với điện thoại di động là bao nhiêu tháng?",
+    "query_rewritten": null,
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 72.2,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:luat19_2023:p23:o43993:718ebcc363",
+        "source_id": "luat19_2023",
+        "page": 23,
+        "page_end": 23,
+        "score": 0.829418,
+        "text_preview": "[Luật 19/2023/QH15 · Chương II · Điều 30]\nc) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức\ntiếp nhận bảo hành tương đương khác, trong đ"
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat59_2010:p10:o19730:b0d3056cc8",
+        "source_id": "luat59_2010",
+        "page": 10,
+        "page_end": 10,
+        "score": 0.823697,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 21]\n3. Cung cấp cho người tiêu dùng hàng hóa, linh kiện, phụ kiện tương tự để sử\ndụng tạm thời hoặc có hình thức giải quyế"
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:luat19_2023:p23:o44830:caf2bc912f",
+        "source_id": "luat19_2023",
+        "page": 23,
+        "page_end": 23,
+        "score": 0.818238,
+        "text_preview": "[Luật 19/2023/QH15 · Chương II · Điều 30]\nđ) Đổi sản phẩm, hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi sản\nphẩm, hàng hóa, linh kiện, phụ kiện và tr"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:nd55_2024:p9:o16353:d63ce236ef",
+        "source_id": "nd55_2024",
+        "page": 9,
+        "page_end": 9,
+        "score": 0.817733,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương IV · Điều 15]\n3. Tổ chức, cá nhân kinh doanh phải sửa đổi, hủy bỏ nội dung vi phạm trong\nthời hạn 30 ngày, kể từ ngày nhận đượ"
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:luat59_2010:p10:o18922:3a430d202c",
+        "source_id": "luat59_2010",
+        "page": 10,
+        "page_end": 10,
+        "score": 0.816827,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 21]\nĐiều 21. Trách nhiệm bảo hành hàng hóa, linh kiện, phụ kiện\nHàng hóa, linh kiện, phụ kiện được bảo hành theo thỏa thuậ"
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:nd99_2011:p7:o13693:0ff33631c9",
+        "source_id": "nd99_2011",
+        "page": 7,
+        "page_end": 7,
+        "score": 0.815999,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương III · Điều 17]\n2. Trường hợp việc đề nghị giao kết hợp đồng được thực hiện thông qua điện\nthoại, tổ chức, cá nhân kinh doanh c"
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:nd55_2024:p10:o18020:0de422c3b4",
+        "source_id": "nd55_2024",
+        "page": 10,
+        "page_end": 10,
+        "score": 0.814122,
+        "text_preview": "[Nghị định 55/2024/NĐ-CP · Chương IV · Điều 16]\n2. Trong trường hợp cần thiết, cơ quan quản lý nhà nước về bảo vệ quyền lợi\nngười tiêu dùng tham vấn ý kiến của "
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat19_2023:p53:o101710:76934ebe4e",
+        "source_id": "luat19_2023",
+        "page": 53,
+        "page_end": 53,
+        "score": 0.813659,
+        "text_preview": "[Luật 19/2023/QH15 · Chương VII · Điều 79]\nĐiều 79. Hiệu lực thi hành\n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.\n2. Luật Bảo vệ quyền lợi ngư"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:luat19_2023:p6:o10517:57d9d82ab1",
+        "source_id": "luat19_2023",
+        "page": 6,
+        "page_end": 6,
+        "score": 0.813463,
+        "text_preview": "[Luật 19/2023/QH15 · Chương I · Điều 8]\nĐiều 8. Bảo vệ quyền lợi người tiêu dùng dễ bị tổn thương\n1. Người tiêu dùng dễ bị tổn thương là người tiêu dùng có khả "
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:luat19_2023:p34:o65830:3f27273928",
+        "source_id": "luat19_2023",
+        "page": 34,
+        "page_end": 34,
+        "score": 0.813168,
+        "text_preview": "[Luật 19/2023/QH15 · Chương III · Điều 41]\n3. Không được đơn phương chấm dứt thực hiện hợp đồng, ngừng cung cấp\ndịch vụ không đúng hợp đồng hoặc trái quy định c"
+      }
+    ],
+    "context": "[struct1000:luat19_2023:p23:o43993:718ebcc363 | Luật 19/2023/QH15 | trang 23]\n[Luật 19/2023/QH15 · Chương II · Điều 30]\nc) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức\ntiếp nhận bảo hành tương đương khác, trong đó ghi rõ thời gian thực hiện bảo\nhành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành sản phẩm,\nhàng hóa, linh kiện, phụ kiện.\nTrường hợp tổ chức, cá nhân kinh doanh thay thế linh kiện, phụ kiện thì thời\nhạn bảo hành linh kiện, phụ kiện đó được tính lại từ thời điểm thay thế linh kiện,\nphụ kiện.\nTrường hợp tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời\nhạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm,\nhàng hóa;\nd) Cung cấp cho người tiêu dùng sản phẩm, hàng hóa, linh kiện, phụ kiện\ntương tự để sử dụng tạm thời hoặc có hình thức giải quyết phù hợp theo thỏa\nthuận giữa người tiêu dùng và tổ chức, cá nhân kinh doanh trong thời gian thực\nhiện bảo hành;\n\n[struct1000:luat59_2010:p10:o19730:b0d3056cc8 | Luật 59/2010/QH12 | trang 10]\n[Luật 59/2010/QH12 · Chương II · Điều 21]\n3. Cung cấp cho người tiêu dùng hàng hóa, linh kiện, phụ kiện tương tự để sử\ndụng tạm thời hoặc có hình thức giải quyết khác được người tiêu dùng chấp nhận\ntrong thời gian thực hiện bảo hành;\n4. Đổi hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi hàng hóa, linh\nkiện, phụ kiện và trả lại tiền cho người tiêu dùng trong trường hợp hết thời gian thực\nhiện bảo hành mà không sửa chữa được hoặc không khắc phục được lỗi.\n5. Đổi hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi hàng hóa và trả\nlại tiền cho người tiêu dùng trong trường hợp đã thực hiện bảo hành hàng hóa, linh\nkiện, phụ kiện từ ba lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục\nđược lỗi;\n6. Chịu chi phí sửa chữa, vận chuyển hàng hóa, linh kiện, phụ kiện đến nơi bảo\nhành và từ nơi bảo hành đến nơi cư trú của người tiêu dùng;\n\n[struct1000:luat19_2023:p23:o44830:caf2bc912f | Luật 19/2023/QH15 | trang 23]\n[Luật 19/2023/QH15 · Chương II · Điều 30]\nđ) Đổi sản phẩm, hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi sản\nphẩm, hàng hóa, linh kiện, phụ kiện và trả lại tiền cho người tiêu dùng trong\ntrường hợp hết thời gian thực hiện bảo hành mà không sửa chữa được hoặc không\nkhắc phục được lỗi hoặc trong trường hợp đã thực hiện bảo hành sản phẩm, hàng\nhóa, linh kiện, phụ kiện từ 03 lần trở lên trong thời hạn bảo hành mà vẫn không\nkhắc phục được lỗi;\ne) Chịu chi phí sửa chữa, vận chuyển sản phẩm, hàng hóa, linh kiện, phụ kiện\ntừ nơi ở của người tiêu dùng hoặc nơi sử dụng sản phẩm, hàng hóa, linh kiện, phụ\nkiện đến nơi bảo hành và từ nơi bảo hành đến nơi ở của người tiêu dùng hoặc nơi\nsử dụng sản phẩm, hàng hóa, linh kiện, phụ kiện;\ng) Chịu trách nhiệm về việc bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện\ncho người tiêu dùng cả trong trường hợp ủy quyền hoặc thuê tổ chức, cá nhân khác\nthực hiện việc bảo hành.",
+    "context_ids": [
+      "struct1000:luat19_2023:p23:o43993:718ebcc363",
+      "struct1000:luat59_2010:p10:o19730:b0d3056cc8",
+      "struct1000:luat19_2023:p23:o44830:caf2bc912f"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2895,
+    "budget_chars": 3000
+  },
+  {
+    "query_id": "u05",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "answerable": false,
+    "question": "Sàn thương mại điện tử phải khấu trừ thuế thu nhập cá nhân của người bán hàng theo thuế suất bao nhiêu?",
+    "query": "Sàn thương mại điện tử phải khấu trừ thuế thu nhập cá nhân của người bán hàng theo thuế suất bao nhiêu?",
+    "query_rewritten": null,
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 82.7,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:luat59_2010:p9:o16026:a86859d853",
+        "source_id": "luat59_2010",
+        "page": 9,
+        "page_end": 9,
+        "score": 0.82621,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 16]\ne) Cho phép tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ giải thích hợp đồng\ntrong trường hợp điều khoản của hợp đồng"
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat19_2023:p8:o15104:fcf5aeca2b",
+        "source_id": "luat19_2023",
+        "page": 8,
+        "page_end": 8,
+        "score": 0.824145,
+        "text_preview": "[Luật 19/2023/QH15 · Chương I · Điều 9]\n1. Cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký\nkinh doanh theo quy định của Luật này chỉ phải"
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:nd99_2011:p7:o14386:459856d615",
+        "source_id": "nd99_2011",
+        "page": 7,
+        "page_end": 7,
+        "score": 0.823482,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương III · Điều 17]\n4. Trường hợp người tiêu dùng đơn phương chấm dứt thực hiện hợp đồng theo\nquy định tại khoản 3 Điều này, tổ chứ"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:luat19_2023:p30:o58253:5b38c7c716",
+        "source_id": "luat19_2023",
+        "page": 30,
+        "page_end": 30,
+        "score": 0.82228,
+        "text_preview": "[Luật 19/2023/QH15 · Chương III · Điều 38]\n4. Trường hợp người tiêu dùng đơn phương chấm dứt thực hiện hợp đồng theo\nquy định tại điểm b khoản 3 Điều này, tổ ch"
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:luat19_2023:p19:o37764:be32e4a00c",
+        "source_id": "luat19_2023",
+        "page": 19,
+        "page_end": 20,
+        "score": 0.821508,
+        "text_preview": "[Luật 19/2023/QH15 · Chương II · Điều 25]\n5. Cho phép tổ chức, cá nhân kinh doanh đơn phương xác định người tiêu dùng\nkhông thực hiện một hoặc một số trách nhiệ"
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:luat59_2010:p5:o9396:fd9fe4a7ca",
+        "source_id": "luat59_2010",
+        "page": 5,
+        "page_end": 6,
+        "score": 0.820054,
+        "text_preview": "[Luật 59/2010/QH12 · Chương I · Điều 10]\n3. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ ép buộc người tiêu dùng thông\nqua việc thực hiện một trong các hành vi"
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:luat19_2023:p29:o55692:34fdea9cc3",
+        "source_id": "luat19_2023",
+        "page": 29,
+        "page_end": 29,
+        "score": 0.819879,
+        "text_preview": "[Luật 19/2023/QH15 · Chương III · Điều 37]\ng) Thông tin về các khoản phí, chi phí, thuế giá trị gia tăng, cách thức tính phí,\nchi phí có thể phát sinh và các đi"
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat59_2010:p4:o6986:f8ef09ef01",
+        "source_id": "luat59_2010",
+        "page": 4,
+        "page_end": 4,
+        "score": 0.819698,
+        "text_preview": "[Luật 59/2010/QH12 · Chương I · Điều 8]\n4. Góp ý kiến với tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ về giá cả, chất\nlượng hàng hóa, dịch vụ, phong cách phục"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:nd99_2011:p7:o13693:0ff33631c9",
+        "source_id": "nd99_2011",
+        "page": 7,
+        "page_end": 7,
+        "score": 0.819235,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương III · Điều 17]\n2. Trường hợp việc đề nghị giao kết hợp đồng được thực hiện thông qua điện\nthoại, tổ chức, cá nhân kinh doanh c"
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:luat19_2023:p24:o46162:27754cb834",
+        "source_id": "luat19_2023",
+        "page": 24,
+        "page_end": 24,
+        "score": 0.818978,
+        "text_preview": "[Luật 19/2023/QH15 · Chương II · Điều 31]\n3. Tổ chức, cá nhân sản xuất, nhập khẩu sản phẩm, hàng hóa hoặc trực tiếp\nbán, cung cấp sản phẩm, hàng hóa, dịch vụ ch"
+      }
+    ],
+    "context": "[struct1000:luat59_2010:p9:o16026:a86859d853 | Luật 59/2010/QH12 | trang 9]\n[Luật 59/2010/QH12 · Chương II · Điều 16]\ne) Cho phép tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ giải thích hợp đồng\ntrong trường hợp điều khoản của hợp đồng được hiểu khác nhau;\ng) Loại trừ trách nhiệm của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ trong\ntrường hợp tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ bán hàng hóa, cung ứng\ndịch vụ thông qua bên thứ ba;\nh) Bắt buộc người tiêu dùng phải tuân thủ các nghĩa vụ ngay cả khi tổ chức, cá\nnhân kinh doanh hàng hóa, dịch vụ không hoàn thành nghĩa vụ của mình;\ni) Cho phép tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ chuyển giao quyền,\nnghĩa vụ cho bên thứ ba mà không được người tiêu dùng đồng ý.\n2. Việc tuyên bố và xử lý điều khoản của hợp đồng giao kết với người tiêu dùng,\nđiều kiện giao dịch chung không có hiệu lực được thực hiện theo quy định của pháp\nluật về dân sự.\n\n[struct1000:luat19_2023:p8:o15104:fcf5aeca2b | Luật 19/2023/QH15 | trang 8]\n[Luật 19/2023/QH15 · Chương I · Điều 9]\n1. Cá nhân hoạt động thương mại độc lập, thường xuyên, không phải đăng ký\nkinh doanh theo quy định của Luật này chỉ phải thực hiện các trách nhiệm sau đây:\na) Bảo đảm an toàn, đo lường, số lượng, khối lượng, chất lượng, công dụng\ncủa sản phẩm, hàng hóa, dịch vụ mà mình bán, cung cấp cho người tiêu dùng;\nb) Không được bán, cung cấp cho người tiêu dùng các loại sản phẩm, hàng\nhóa, dịch vụ trái pháp luật, trái với thuần phong mỹ tục và đạo đức xã hội;\nc) Cung cấp chính xác, đầy đủ thông tin về sản phẩm, hàng hóa, dịch vụ mà\nmình bán, cung cấp cho người tiêu dùng;\nd) Đổi hàng hóa cho người tiêu dùng hoặc trả lại tiền và nhận lại hàng hóa từ\nngười tiêu dùng trong trường hợp hàng hóa do mình bán, cung cấp không bảo đảm\nan toàn, đo lường, số lượng, khối lượng, chất lượng, công dụng như thông tin mà\nmình cung cấp;\n\n[struct1000:nd99_2011:p7:o14386:459856d615 | Nghị định 99/2011/NĐ-CP | trang 7]\n[Nghị định 99/2011/NĐ-CP · Chương III · Điều 17]\n4. Trường hợp người tiêu dùng đơn phương chấm dứt thực hiện hợp đồng theo\nquy định tại khoản 3 Điều này, tổ chức, cá nhân kinh doanh phải trả lại tiền cho\nngười tiêu dùng chậm nhất là ba mươi (30) ngày kể từ ngày người tiêu dùng tuyên\nbố đơn phương chấm dứt thực hiện hợp đồng. Quá thời hạn này, tổ chức, cá nhân\nkinh doanh phải trả lãi đối với số tiền chậm trả theo lãi suất cơ bản do Ngân hàng\nNhà nước công bố tương ứng với thời gian chậm trả tại thời điểm thanh toán. Việc\nhoàn trả được thực hiện theo phương thức mà người tiêu dùng đã thanh toán, trừ\ntrường hợp người tiêu dùng đồng ý thanh toán bằng phương thức khác.\nTrường hợp việc chấm dứt hợp đồng gây thiệt hại cho người tiêu dùng thì tổ\nchức, cá nhân kinh doanh phải bồi thường theo quy định của pháp luật dân sự.",
+    "context_ids": [
+      "struct1000:luat59_2010:p9:o16026:a86859d853",
+      "struct1000:luat19_2023:p8:o15104:fcf5aeca2b",
+      "struct1000:nd99_2011:p7:o14386:459856d615"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2754,
+    "budget_chars": 3000
+  },
+  {
+    "query_id": "u06",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "answerable": false,
+    "question": "Chương trình khuyến mại giảm giá cho người tiêu dùng được giảm tối đa bao nhiêu phần trăm giá hàng hóa?",
+    "query": "Chương trình khuyến mại giảm giá cho người tiêu dùng được giảm tối đa bao nhiêu phần trăm giá hàng hóa?",
+    "query_rewritten": null,
+    "filter": null,
+    "method": "dense",
+    "top_k": 3,
+    "elapsed_ms": 75.1,
+    "results": [
+      {
+        "rank": 1,
+        "id": "struct1000:luat59_2010:p2:o2252:68fa8c076d",
+        "source_id": "luat59_2010",
+        "page": 2,
+        "page_end": 2,
+        "score": 0.813716,
+        "text_preview": "[Luật 59/2010/QH12 · Chương I · Điều 3]\n4. Quấy rối người tiêu dùng là hành vi tiếp xúc trực tiếp hoặc gián tiếp với người\ntiêu dùng để giới thiệu về hàng hóa, "
+      },
+      {
+        "rank": 2,
+        "id": "struct1000:luat59_2010:p8:o15130:411c1b1388",
+        "source_id": "luat59_2010",
+        "page": 8,
+        "page_end": 8,
+        "score": 0.813422,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 16]\n1. Điều khoản của hợp đồng giao kết với người tiêu dùng, điều kiện giao dịch\nchung không có hiệu lực trong các trường "
+      },
+      {
+        "rank": 3,
+        "id": "struct1000:luat59_2010:p17:o31167:936f1ed697",
+        "source_id": "luat59_2010",
+        "page": 17,
+        "page_end": 17,
+        "score": 0.813249,
+        "text_preview": "[Luật 59/2010/QH12 · Chương IV · Điều 41]\nMục 4\nGIẢI QUYẾT TRANH CHẤP TẠI TÒA ÁN\nĐiều 41. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bả"
+      },
+      {
+        "rank": 4,
+        "id": "struct1000:luat59_2010:p4:o6986:f8ef09ef01",
+        "source_id": "luat59_2010",
+        "page": 4,
+        "page_end": 4,
+        "score": 0.812868,
+        "text_preview": "[Luật 59/2010/QH12 · Chương I · Điều 8]\n4. Góp ý kiến với tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ về giá cả, chất\nlượng hàng hóa, dịch vụ, phong cách phục"
+      },
+      {
+        "rank": 5,
+        "id": "struct1000:nd99_2011:p2:o2685:741a60930e",
+        "source_id": "nd99_2011",
+        "page": 2,
+        "page_end": 2,
+        "score": 0.811107,
+        "text_preview": "[Nghị định 99/2011/NĐ-CP · Chương II · Điều 4]\n4. Đổi hàng hóa hoặc trả lại tiền và nhận lại hàng hóa cho người tiêu dùng\ntrong trường hợp hàng hóa do mình cung"
+      },
+      {
+        "rank": 6,
+        "id": "struct1000:luat19_2023:p48:o90657:402750c2ce",
+        "source_id": "luat19_2023",
+        "page": 48,
+        "page_end": 48,
+        "score": 0.809875,
+        "text_preview": "[Luật 19/2023/QH15 · Chương V · Điều 70]\nMục 5\nGIẢI QUYẾT TRANH CHẤP TẠI TÒA ÁN\nĐiều 70. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bảo"
+      },
+      {
+        "rank": 7,
+        "id": "struct1000:luat59_2010:p13:o24942:c560409fd1",
+        "source_id": "luat59_2010",
+        "page": 13,
+        "page_end": 13,
+        "score": 0.809816,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 26]\n3. Biện pháp khắc phục hậu quả quy định tại điểm b khoản 2 Điều này bao gồm:\na) Buộc tổ chức, cá nhân kinh doanh hàng "
+      },
+      {
+        "rank": 8,
+        "id": "struct1000:luat59_2010:p6:o11628:2bef71ac6c",
+        "source_id": "luat59_2010",
+        "page": 6,
+        "page_end": 7,
+        "score": 0.809283,
+        "text_preview": "[Luật 59/2010/QH12 · Chương II · Điều 12]\nChương II\nTRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH\nHÀNG HÓA, DỊCH VỤ ĐỐI VỚI NGƯỜI TIÊU DÙNG\nĐiều 12. Trách nhiệm c"
+      },
+      {
+        "rank": 9,
+        "id": "struct1000:luat59_2010:p5:o8564:1ffef41dd6",
+        "source_id": "luat59_2010",
+        "page": 5,
+        "page_end": 5,
+        "score": 0.808342,
+        "text_preview": "[Luật 59/2010/QH12 · Chương I · Điều 10]\nĐiều 10. Các hành vi bị cấm\n1. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ lừa dối hoặc gây nhầm lẫn cho\nngười tiêu d"
+      },
+      {
+        "rank": 10,
+        "id": "struct1000:luat59_2010:p4:o6177:70a10a843a",
+        "source_id": "luat59_2010",
+        "page": 4,
+        "page_end": 4,
+        "score": 0.807192,
+        "text_preview": "[Luật 59/2010/QH12 · Chương I · Điều 8]\nĐiều 8. Quyền của người tiêu dùng\n1. Được bảo đảm an toàn tính mạng, sức khỏe, tài sản, quyền, lợi ích hợp pháp\nkhác khi"
+      }
+    ],
+    "context": "[struct1000:luat59_2010:p2:o2252:68fa8c076d | Luật 59/2010/QH12 | trang 2]\n[Luật 59/2010/QH12 · Chương I · Điều 3]\n4. Quấy rối người tiêu dùng là hành vi tiếp xúc trực tiếp hoặc gián tiếp với người\ntiêu dùng để giới thiệu về hàng hóa, dịch vụ, tổ chức, cá nhân kinh doanh hàng hóa,\ndịch vụ hoặc đề nghị giao kết hợp đồng trái với ý muốn của người tiêu dùng, gây cản\ntrở, ảnh hưởng đến công việc, sinh hoạt bình thường của người tiêu dùng.\n5. Hợp đồng theo mẫu là hợp đồng do tổ chức, cá nhân kinh doanh hàng hóa,\ndịch vụ soạn thảo để giao dịch với người tiêu dùng.\n6. Điều kiện giao dịch chung là những quy định, quy tắc bán hàng, cung ứng\ndịch vụ do tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ công bố và áp dụng đối\nvới người tiêu dùng.\n7. Hòa giải là việc giải quyết tranh chấp giữa người tiêu dùng và tổ chức, cá\nnhân kinh doanh hàng hóa, dịch vụ thông qua bên thứ ba.\n\n[struct1000:luat59_2010:p8:o15130:411c1b1388 | Luật 59/2010/QH12 | trang 8]\n[Luật 59/2010/QH12 · Chương II · Điều 16]\n1. Điều khoản của hợp đồng giao kết với người tiêu dùng, điều kiện giao dịch\nchung không có hiệu lực trong các trường hợp sau đây:\na) Loại trừ trách nhiệm của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ đối\nvới người tiêu dùng theo quy định của pháp luật;\nb) Hạn chế, loại trừ quyền khiếu nại, khởi kiện của người tiêu dùng;\nc) Cho phép tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ đơn phương thay đổi\nđiều kiện của hợp đồng đã thỏa thuận trước với người tiêu dùng hoặc quy tắc, quy\nđịnh bán hàng, cung ứng dịch vụ áp dụng đối với người tiêu dùng khi mua, sử dụng\nhàng hóa, dịch vụ không được thể hiện cụ thể trong hợp đồng;\nd) Cho phép tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ đơn phương xác\nđịnh người tiêu dùng không thực hiện một hoặc một số nghĩa vụ;\nđ) Cho phép tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ quy định hoặc thay\nđổi giá tại thời điểm giao hàng hóa, cung ứng dịch vụ;\n\n[struct1000:luat59_2010:p17:o31167:936f1ed697 | Luật 59/2010/QH12 | trang 17]\n[Luật 59/2010/QH12 · Chương IV · Điều 41]\nMục 4\nGIẢI QUYẾT TRANH CHẤP TẠI TÒA ÁN\nĐiều 41. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng\n1. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là vụ án mà bên khởi kiện\nlà người tiêu dùng hoặc tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng\ntheo quy định của Luật này.\n2. Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được giải quyết theo thủ tục\nđơn giản quy định trong pháp luật về tố tụng dân sự khi có đủ các điều kiện sau đây:\na) Cá nhân là người tiêu dùng khởi kiện; tổ chức, cá nhân trực tiếp cung cấp\nhàng hóa, dịch vụ cho người tiêu dùng bị khởi kiện;\nb) Vụ án đơn giản, chứng cứ rõ ràng;\nc) Giá trị giao dịch dưới 100 triệu đồng.",
+    "context_ids": [
+      "struct1000:luat59_2010:p2:o2252:68fa8c076d",
+      "struct1000:luat59_2010:p8:o15130:411c1b1388",
+      "struct1000:luat59_2010:p17:o31167:936f1ed697"
+    ],
+    "dropped_ids": [],
+    "context_chars": 2668,
+    "budget_chars": 3000
+  }
+]

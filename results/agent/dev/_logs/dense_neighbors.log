@@ -1,0 +1,90 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   5%|▌         | 10/199 [00:00<00:02, 94.19it/s]Loading weights:  10%|█         | 20/199 [00:00<00:02, 80.84it/s]Loading weights:  15%|█▍        | 29/199 [00:00<00:02, 84.11it/s]Loading weights:  22%|██▏       | 44/199 [00:00<00:01, 106.13it/s]Loading weights:  32%|███▏      | 64/199 [00:00<00:01, 129.54it/s]Loading weights:  39%|███▊      | 77/199 [00:00<00:00, 124.49it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 263.88it/s]
+[1/21] d01 answered searches=1 4.0s $0.00063 submitted
+[2/21] d02 answered searches=2 4.47s $0.00084 submitted
+[3/21] d03 answered searches=2 4.09s $0.00077 submitted
+[4/21] d04 answered searches=2 7.03s $0.00105 submitted
+[5/21] d05 answered searches=2 4.98s $0.00094 submitted
+[6/21] d06 answered searches=2 5.73s $0.00116 submitted
+[7/21] d07 answered searches=1 3.83s $0.00059 submitted
+[8/21] d08 answered searches=2 3.79s $0.00086 submitted
+[9/21] d09 answered searches=2 7.65s $0.00099 submitted
+[10/21] d10 answered searches=2 4.51s $0.00096 submitted
+[11/21] d11 answered searches=2 5.06s $0.00091 submitted
+[12/21] d12 answered searches=2 7.76s $0.00106 submitted
+[13/21] d13 answered searches=2 5.44s $0.00110 submitted
+[14/21] d14 answered searches=1 3.21s $0.00055 submitted
+[15/21] d15 answered searches=2 5.37s $0.00079 submitted
+[16/21] d16 answered searches=2 4.05s $0.00100 submitted
+[17/21] d17 answered searches=2 6.26s $0.00100 submitted
+[18/21] d18 answered searches=2 3.78s $0.00086 submitted
+[19/21] u01 abstain  searches=3 5.57s $0.00158 model_insufficient_evidence
+[20/21] u02 abstain  searches=3 6.08s $0.00153 model_insufficient_evidence
+[21/21] u03 abstain  searches=3 5.97s $0.00152 model_insufficient_evidence
+{
+  "status": {
+    "answered": 18,
+    "abstain": 3
+  },
+  "tool_use": {
+    "n": 21,
+    "N": 21,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 3,
+    "2": 15,
+    "3": 3
+  },
+  "answerable": {
+    "context_evidence_rate": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "first_search_evidence_hit3": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "answered": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 18,
+      "rate": 0.0
+    },
+    "answered_with_cited_evidence_auto": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    }
+  },
+  "unanswerable": {
+    "abstained": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    }
+  },
+  "citations": {
+    "total": 36,
+    "in_context": 36,
+    "answers_with_citation": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    }
+  },
+  "tokens": {
+    "input": 132848,
+    "output": 14759
+  },
+  "cost_usd": 0.020664,
+  "latency_s": {
+    "median": 5.06,
+    "max": 7.76
+  }
+}

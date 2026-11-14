@@ -1,0 +1,410 @@
+[
+  {
+    "tag": "baseline_dense",
+    "method": "dense",
+    "neighbors": false,
+    "prompt": "v1",
+    "top_k": 3,
+    "budget": 6000,
+    "max_searches": 3,
+    "hit1_orig": {
+      "n": 16,
+      "N": 18,
+      "rate": 0.8889
+    },
+    "hit3_orig": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "first_search_hit3_agent": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "correct_behavior": {
+      "n": 20,
+      "N": 21
+    },
+    "answered": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "abstained_unanswerable": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "errors": 0,
+    "searches": {
+      "1": 3,
+      "2": 14,
+      "3": 4
+    },
+    "avg_citations": 2.18,
+    "avg_context_chars": 3100,
+    "cost_usd": 0.019533,
+    "median_s": 5.02,
+    "tokens": {
+      "input": 119293,
+      "output": 15208
+    },
+    "human": {
+      "cases": 21,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 21,
+        "N": 21
+      },
+      "grounded_answer": {
+        "0": 1,
+        "1": 0,
+        "2": 17,
+        "N": 18,
+        "mean": 1.8888888888888888
+      },
+      "citation_validity": {
+        "n": 37,
+        "N": 37
+      },
+      "answer_citation_coverage": {
+        "n": 17,
+        "N": 17
+      },
+      "abstention": {
+        "n": 3,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 1,
+        "N": 18
+      }
+    }
+  },
+  {
+    "tag": "baseline_dense_r2",
+    "method": "dense",
+    "neighbors": false,
+    "prompt": "v1",
+    "top_k": 3,
+    "budget": 6000,
+    "max_searches": 3,
+    "hit1_orig": {
+      "n": 16,
+      "N": 18,
+      "rate": 0.8889
+    },
+    "hit3_orig": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "first_search_hit3_agent": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "correct_behavior": {
+      "n": 20,
+      "N": 21
+    },
+    "answered": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "abstained_unanswerable": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "errors": 0,
+    "searches": {
+      "1": 5,
+      "2": 12,
+      "3": 4
+    },
+    "avg_citations": 2.06,
+    "avg_context_chars": 3029,
+    "cost_usd": 0.019048,
+    "median_s": 6.39,
+    "tokens": {
+      "input": 117202,
+      "output": 14656
+    },
+    "human": null
+  },
+  {
+    "tag": "bm25",
+    "method": "bm25",
+    "neighbors": false,
+    "prompt": "v1",
+    "top_k": 3,
+    "budget": 6000,
+    "max_searches": 3,
+    "hit1_orig": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "hit3_orig": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "first_search_hit3_agent": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "correct_behavior": {
+      "n": 20,
+      "N": 21
+    },
+    "answered": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "abstained_unanswerable": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "errors": 0,
+    "searches": {
+      "1": 4,
+      "2": 12,
+      "3": 5
+    },
+    "avg_citations": 2.24,
+    "avg_context_chars": 3285,
+    "cost_usd": 0.019796,
+    "median_s": 4.96,
+    "tokens": {
+      "input": 126865,
+      "output": 14218
+    },
+    "human": null
+  },
+  {
+    "tag": "dense_neighbors",
+    "method": "dense",
+    "neighbors": true,
+    "prompt": "v1",
+    "top_k": 3,
+    "budget": 6000,
+    "max_searches": 3,
+    "hit1_orig": {
+      "n": 16,
+      "N": 18,
+      "rate": 0.8889
+    },
+    "hit3_orig": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "first_search_hit3_agent": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "context_evidence_rate": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "correct_behavior": {
+      "n": 21,
+      "N": 21
+    },
+    "answered": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "abstained_unanswerable": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "errors": 0,
+    "searches": {
+      "1": 3,
+      "2": 15,
+      "3": 3
+    },
+    "avg_citations": 2,
+    "avg_context_chars": 4260,
+    "cost_usd": 0.020664,
+    "median_s": 5.06,
+    "tokens": {
+      "input": 132848,
+      "output": 14759
+    },
+    "human": null
+  },
+  {
+    "tag": "dense_neighbors_precise",
+    "method": "dense",
+    "neighbors": true,
+    "prompt": "v2_precise",
+    "top_k": 3,
+    "budget": 6000,
+    "max_searches": 3,
+    "hit1_orig": {
+      "n": 16,
+      "N": 18,
+      "rate": 0.8889
+    },
+    "hit3_orig": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "first_search_hit3_agent": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "context_evidence_rate": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "correct_behavior": {
+      "n": 21,
+      "N": 21
+    },
+    "answered": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "abstained_unanswerable": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "errors": 0,
+    "searches": {
+      "1": 7,
+      "2": 11,
+      "3": 3
+    },
+    "avg_citations": 1.61,
+    "avg_context_chars": 4154,
+    "cost_usd": 0.019776,
+    "median_s": 4.35,
+    "tokens": {
+      "input": 142343,
+      "output": 11084
+    },
+    "human": {
+      "cases": 21,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 21,
+        "N": 21
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 18,
+        "N": 18,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 29,
+        "N": 29
+      },
+      "answer_citation_coverage": {
+        "n": 18,
+        "N": 18
+      },
+      "abstention": {
+        "n": 3,
+        "N": 3
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 18
+      }
+    }
+  },
+  {
+    "tag": "hybrid_rrf",
+    "method": "hybrid_rrf",
+    "neighbors": false,
+    "prompt": "v1",
+    "top_k": 3,
+    "budget": 6000,
+    "max_searches": 3,
+    "hit1_orig": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "hit3_orig": {
+      "n": 18,
+      "N": 18,
+      "rate": 1.0
+    },
+    "first_search_hit3_agent": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "correct_behavior": {
+      "n": 20,
+      "N": 21
+    },
+    "answered": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "abstained_unanswerable": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "errors": 0,
+    "searches": {
+      "1": 4,
+      "2": 12,
+      "3": 5
+    },
+    "avg_citations": 2.41,
+    "avg_context_chars": 3174,
+    "cost_usd": 0.020124,
+    "median_s": 5.62,
+    "tokens": {
+      "input": 125411,
+      "output": 15166
+    },
+    "human": null
+  }
+]

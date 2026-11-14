@@ -1,0 +1,89 @@
+[1/21] d01 answered searches=1 3.4s $0.00054 submitted
+[2/21] d02 answered searches=1 3.92s $0.00063 submitted
+[3/21] d03 answered searches=2 4.49s $0.00087 submitted
+[4/21] d04 answered searches=2 5.65s $0.00080 submitted
+[5/21] d05 answered searches=3 7.36s $0.00160 submitted
+[6/21] d06 answered searches=2 5.54s $0.00098 submitted
+[7/21] d07 answered searches=1 3.06s $0.00059 submitted
+[8/21] d08 answered searches=2 4.06s $0.00080 submitted
+[9/21] d09 answered searches=2 7.21s $0.00098 submitted
+[10/21] d10 answered searches=2 4.53s $0.00080 submitted
+[11/21] d11 answered searches=2 3.45s $0.00081 submitted
+[12/21] d12 abstain  searches=3 8.68s $0.00145 model_insufficient_evidence
+[13/21] d13 answered searches=2 5.92s $0.00088 submitted
+[14/21] d14 answered searches=1 3.18s $0.00055 submitted
+[15/21] d15 answered searches=2 4.96s $0.00073 submitted
+[16/21] d16 answered searches=2 4.26s $0.00077 submitted
+[17/21] d17 answered searches=2 6.48s $0.00103 submitted
+[18/21] d18 answered searches=2 3.35s $0.00070 submitted
+[19/21] u01 abstain  searches=3 5.87s $0.00144 model_insufficient_evidence
+[20/21] u02 abstain  searches=3 5.59s $0.00138 model_insufficient_evidence
+[21/21] u03 abstain  searches=3 5.64s $0.00149 model_insufficient_evidence
+{
+  "status": {
+    "answered": 17,
+    "abstain": 4
+  },
+  "tool_use": {
+    "n": 21,
+    "N": 21,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 4,
+    "2": 12,
+    "3": 5
+  },
+  "answerable": {
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "first_search_evidence_hit3": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "answered": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 18,
+      "rate": 0.0556
+    },
+    "answered_with_cited_evidence_auto": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    }
+  },
+  "unanswerable": {
+    "abstained": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    }
+  },
+  "citations": {
+    "total": 38,
+    "in_context": 38,
+    "answers_with_citation": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    }
+  },
+  "tokens": {
+    "input": 126865,
+    "output": 14218
+  },
+  "cost_usd": 0.019796,
+  "latency_s": {
+    "median": 4.96,
+    "max": 8.68
+  }
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "query_id": "t01",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (kỹ năng hòa giải, hiểu biết pháp luật về bảo vệ quyền lợi người tiêu dùng và pháp luật liên quan). Cả 2 trích dẫn (Luật 19/2023 Điều 64 và Điều 63) đều hỗ trợ chính xác. (Lý do context mức 2: context cuối có 3 đoạn, đoạn chứa evidence gold: C2 = Luật 19/2023/QH15 Điều 64, trang 46; header mỗi đoạn ghi văn bản, Điều và trang nên đủ nguồn để kiểm chứng.)",
+    "context_grade": 2
+  },
+  {
+    "query_id": "t02",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (ít nhất 05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài phát thanh, truyền hình địa phương). Cả 2 trích dẫn (Luật 59/2010 Điều 22) đều hỗ trợ chính xác. (Lý do context mức 2: context cuối có 3 đoạn, đoạn chứa evidence gold: C1 = Luật 59/2010/QH12 Điều 22, trang 11; header mỗi đoạn ghi văn bản, Điều và trang nên đủ nguồn để kiểm chứng.)",
+    "context_grade": 2
+  },
+  {
+    "query_id": "t03",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (không phải nộp tiền tạm ứng án phí và không phải chịu án phí). Cả 3 trích dẫn (Luật 19/2023 Điều 50, Điều 71 và NĐ 99/2011 Điều 25) đều hỗ trợ chính xác. (Ghi chú: Ý phụ về việc NĐ 99/2011 'đã hết hiệu lực' là đúng nhưng không có trích dẫn chunk hỗ trợ, đến từ system prompt chứ không hoàn toàn grounded từ context). (Lý do context mức 2: context cuối có 4 đoạn, đoạn chứa evidence gold: C3 = Luật 19/2023/QH15 Điều 71, trang 48; header mỗi đoạn ghi văn bản, Điều và trang nên đủ nguồn để kiểm chứng.)",
+    "context_grade": 2
+  },
+  {
+    "query_id": "t04",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (công bố công khai tiêu chí ưu tiên hiển thị, nội dung thu phí/tài trợ phải công khai tại kết quả tìm kiếm). Cả 2 trích dẫn (NĐ 55/2024 Điều 23 và Luật 19/2023 Điều 10) đều hỗ trợ chính xác. (Lý do context mức 2: context cuối có 6 đoạn, đoạn chứa evidence gold: C1 = Nghị định 55/2024/NĐ-CP Điều 23, trang 15; header mỗi đoạn ghi văn bản, Điều và trang nên đủ nguồn để kiểm chứng.)",
+    "context_grade": 2
+  },
+  {
+    "query_id": "t05",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (15 ngày làm việc kể từ ngày tiếp nhận yêu cầu hợp lệ, vụ việc phức tạp gia hạn không quá 15 ngày làm việc). Trích dẫn NĐ 99/2011 Điều 22 khoản 2 hỗ trợ chính xác. (Ghi chú: Ý phụ về việc NĐ 99/2011 'đã hết hiệu lực' là đúng nhưng không có trích dẫn chunk hỗ trợ, đến từ system prompt chứ không hoàn toàn grounded từ context). (Lý do context mức 2: context cuối có 3 đoạn, đoạn chứa evidence gold: C1 = Nghị định 99/2011/NĐ-CP Điều 22, trang 10; header mỗi đoạn ghi văn bản, Điều và trang nên đủ nguồn để kiểm chứng.)",
+    "context_grade": 2
+  },
+  {
+    "query_id": "t06",
+    "answerable": true,
+    "status": "answered",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đáp án đúng và đủ (từ 03 lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục được lỗi). Cả 2 trích dẫn (Luật 19/2023 Điều 30 và Luật 59/2010 Điều 21) đều hỗ trợ chính xác. (Ghi chú: Ý phụ về việc Luật 59/2010 'đã thay thế' là đúng nhưng không có trích dẫn chunk hỗ trợ, đến từ system prompt chứ không hoàn toàn grounded từ context). (Ghi chú lỗi: chuỗi câu trả lời bị lẫn markup gọi tool `</answer> <parameter name=\"citations\">[...]` do model sinh sai định dạng; validator chỉ kiểm tra [C#] nên không chặn. Nội dung trả lời vẫn đúng nên giữ điểm 2; ghi vào báo cáo như một lỗi hệ thống.) (Lý do context mức 2: context cuối có 3 đoạn, đoạn chứa evidence gold: C1 = Luật 19/2023/QH15 Điều 30, trang 23; C2 = Luật 59/2010/QH12 Điều 21, trang 10; header mỗi đoạn ghi văn bản, Điều và trang nên đủ nguồn để kiểm chứng.)",
+    "context_grade": 2
+  },
+  {
+    "query_id": "u04",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Câu hỏi thiếu bằng chứng trong corpus (không có quy định về thời hạn bảo hành tối thiểu bằng số tháng cho điện thoại). Agent từ chối trả lời chính xác, không bịa đặt."
+  },
+  {
+    "query_id": "u05",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Câu hỏi thiếu bằng chứng trong corpus (thuế suất và nghĩa vụ khấu trừ thuế TNCN thuộc pháp luật thuế). Agent từ chối trả lời chính xác."
+  },
+  {
+    "query_id": "u06",
+    "answerable": false,
+    "status": "abstain",
+    "answer_grade": null,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Câu hỏi thiếu bằng chứng trong corpus (hạn mức giảm giá tối đa trong khuyến mại thuộc Luật Thương mại). Agent từ chối trả lời chính xác."
+  }
+]

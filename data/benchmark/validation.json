@@ -1,0 +1,247 @@
+{
+  "corpus": {
+    "collection": "lab06_C",
+    "chroma_path": "../K5-L3A-DAY06-LeXuanHa-2A202603571-DataIngestion/starter/chroma_db",
+    "collection_metadata": {
+      "strategy": "C",
+      "hnsw:space": "cosine",
+      "embedding_model": "intfloat/multilingual-e5-base"
+    },
+    "count": 340,
+    "by_source": {
+      "luat19_2023": 162,
+      "luat59_2010": 69,
+      "nd55_2024": 57,
+      "nd99_2011": 52
+    }
+  },
+  "source_questions": "../K5-L3A-DAY06-LeXuanHa-2A202603571-DataIngestion/benchmark/questions.jsonl",
+  "gold_check": [
+    {
+      "id": "d01",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p12:o24008:35e7a6e2d5"
+      ]
+    },
+    {
+      "id": "d02",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p6:o10517:57d9d82ab1"
+      ]
+    },
+    {
+      "id": "d03",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p42:o81740:66655aa907",
+        "struct1000:luat59_2010:p15:o28317:6ebef7a16b"
+      ]
+    },
+    {
+      "id": "d04",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p48:o90657:402750c2ce",
+        "struct1000:luat19_2023:p53:o101188:c6c8fea761"
+      ]
+    },
+    {
+      "id": "d05",
+      "hit_chunks": [
+        "struct1000:nd99_2011:p7:o13693:0ff33631c9"
+      ]
+    },
+    {
+      "id": "d06",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p30:o57562:6c1cde9790"
+      ]
+    },
+    {
+      "id": "d07",
+      "hit_chunks": [
+        "struct1000:nd99_2011:p13:o26250:1da2a24e84"
+      ]
+    },
+    {
+      "id": "d08",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p23:o43993:718ebcc363",
+        "struct1000:luat59_2010:p10:o18922:3a430d202c"
+      ]
+    },
+    {
+      "id": "d09",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p27:o52148:a741b896ef"
+      ]
+    },
+    {
+      "id": "d10",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p25:o48174:6d057421d8"
+      ]
+    },
+    {
+      "id": "d11",
+      "hit_chunks": [
+        "struct1000:nd55_2024:p7:o11015:ff4cd946d6"
+      ]
+    },
+    {
+      "id": "d12",
+      "hit_chunks": [
+        "struct1000:nd55_2024:p19:o34899:18bfceb6d6"
+      ]
+    },
+    {
+      "id": "d13",
+      "hit_chunks": [
+        "struct1000:nd55_2024:p19:o36432:6293df2f55"
+      ]
+    },
+    {
+      "id": "d14",
+      "hit_chunks": [
+        "struct1000:luat59_2010:p20:o36605:a486b6cb3f"
+      ]
+    },
+    {
+      "id": "d15",
+      "hit_chunks": [
+        "struct1000:luat59_2010:p16:o29636:728a4a2c0c"
+      ]
+    },
+    {
+      "id": "d16",
+      "hit_chunks": [
+        "struct1000:nd99_2011:p9:o19006:a4b10855a6"
+      ]
+    },
+    {
+      "id": "d17",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p43:o83500:77d12f7b8e"
+      ]
+    },
+    {
+      "id": "d18",
+      "hit_chunks": [
+        "struct1000:nd55_2024:p4:o5678:237102acac",
+        "struct1000:nd99_2011:p2:o3495:14baf53701"
+      ]
+    },
+    {
+      "id": "t01",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p46:o87407:a734a81d41"
+      ]
+    },
+    {
+      "id": "t02",
+      "hit_chunks": [
+        "struct1000:luat59_2010:p11:o20713:5dcc945667"
+      ]
+    },
+    {
+      "id": "t03",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p48:o91525:df6fcf7de1"
+      ]
+    },
+    {
+      "id": "t04",
+      "hit_chunks": [
+        "struct1000:nd55_2024:p15:o28119:fd491db37d"
+      ]
+    },
+    {
+      "id": "t05",
+      "hit_chunks": [
+        "struct1000:nd99_2011:p10:o19823:86f6e9534d"
+      ]
+    },
+    {
+      "id": "t06",
+      "hit_chunks": [
+        "struct1000:luat19_2023:p23:o44830:caf2bc912f",
+        "struct1000:luat59_2010:p10:o19730:b0d3056cc8"
+      ]
+    }
+  ],
+  "absence_check": [
+    {
+      "id": "u01",
+      "terms_found": {
+        "phạt tiền": 0,
+        "mức phạt": 0,
+        "phạt tối đa": 0
+      },
+      "related_terms_found": {
+        "xử phạt": 1
+      }
+    },
+    {
+      "id": "u02",
+      "terms_found": {
+        "thời hiệu": 0
+      },
+      "related_terms_found": {
+        "khởi kiện": 22
+      }
+    },
+    {
+      "id": "u03",
+      "terms_found": {
+        "máy bay": 0,
+        "chuyến bay": 0,
+        "giá vé": 0,
+        "phần trăm": 0,
+        "%": 0
+      },
+      "related_terms_found": {
+        "hàng không": 5,
+        "hoàn tiền": 1
+      }
+    },
+    {
+      "id": "u04",
+      "terms_found": {
+        "điện thoại di động": 0,
+        "bảo hành tối thiểu": 0,
+        "tháng bảo hành": 0
+      },
+      "related_terms_found": {
+        "thời hạn bảo hành": 4
+      }
+    },
+    {
+      "id": "u05",
+      "terms_found": {
+        "thuế thu nhập": 0,
+        "thuế suất": 0,
+        "khấu trừ": 0
+      },
+      "related_terms_found": {
+        "thuế": 2,
+        "thương mại điện tử": 2
+      }
+    },
+    {
+      "id": "u06",
+      "terms_found": {
+        "khuyến mại": 0,
+        "phần trăm": 0,
+        "%": 0,
+        "giảm giá tối đa": 0
+      },
+      "related_terms_found": {
+        "giảm giá": 1
+      }
+    }
+  ],
+  "counts": {
+    "dev_unanswerable": 3,
+    "dev_answerable": 18,
+    "test_unanswerable": 3,
+    "test_answerable": 6
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "method": "dense",
+  "split": "test",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "use_filter": true,
+  "n_answerable": 6,
+  "n_unanswerable": 3,
+  "hit1": {
+    "n": 6,
+    "N": 6,
+    "rate": 1.0
+  },
+  "evidence_hit3": {
+    "n": 6,
+    "N": 6,
+    "rate": 1.0
+  },
+  "hit10": {
+    "n": 6,
+    "N": 6,
+    "rate": 1.0
+  },
+  "mrr10": 1.0,
+  "context_evidence_rate": {
+    "n": 6,
+    "N": 6,
+    "rate": 1.0
+  },
+  "avg_context_chars": 2522.9,
+  "dropped_by_budget": 0,
+  "median_ms": 80.3,
+  "p90_ms": 108.3,
+  "cost_usd": 0.0,
+  "misses_at3": [],
+  "misses_at1": [],
+  "setup_seconds_all_methods": 19.83
+}

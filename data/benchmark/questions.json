@@ -1,0 +1,573 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ngày Quyền của người tiêu dùng Việt Nam là ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ngày 15 tháng 3 hằng năm.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 12,
+        "evidence": "Ngày 15 tháng 3 hằng năm là Ngày Quyền của người tiêu dùng Việt Nam."
+      }
+    ]
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Phụ nữ nuôi con nhỏ dưới bao nhiêu tháng tuổi thì được xếp vào nhóm người tiêu dùng dễ bị tổn thương?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Phụ nữ đang mang thai hoặc nuôi con dưới 36 tháng tuổi.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 6,
+        "evidence": "Phụ nữ đang mang thai hoặc nuôi con dưới 36 tháng tuổi"
+      }
+    ]
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Sau khi nhận được yêu cầu thương lượng của người tiêu dùng, doanh nghiệp phải tiến hành thương lượng trong thời hạn bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu (Luật 2010 ghi 'không quá 07 ngày làm việc').",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 43,
+        "evidence": "tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu"
+      },
+      {
+        "source_id": "luat59_2010",
+        "page": 15,
+        "evidence": "tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn không quá 07 ngày làm việc, kể từ ngày nhận được yêu cầu"
+      }
+    ]
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Vụ án dân sự về bảo vệ quyền lợi người tiêu dùng có giá trị giao dịch bao nhiêu thì được giải quyết theo thủ tục rút gọn mà không phải đáp ứng điều kiện tại khoản 1 Điều 317 Bộ luật Tố tụng dân sự?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Giá trị giao dịch dưới 100 triệu đồng.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 48,
+        "evidence": "có giá trị giao dịch dưới 100 triệu đồng thì được giải quyết theo thủ tục rút gọn"
+      },
+      {
+        "source_id": "luat19_2023",
+        "page": 53,
+        "evidence": "có giá trị giao dịch dưới 100 triệu đồng được thực hiện theo quy định tại khoản 2 Điều 70"
+      }
+    ]
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo quy định cũ (giao dịch xác lập năm 2015), khi giao kết hợp đồng từ xa mà doanh nghiệp cung cấp thông tin không đầy đủ, người tiêu dùng có bao nhiêu ngày để đơn phương chấm dứt hợp đồng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Mười (10) ngày kể từ ngày giao kết hợp đồng.",
+    "filter": {
+      "legal_regime": "2010"
+    },
+    "gold": [
+      {
+        "source_id": "nd99_2011",
+        "page": 7,
+        "evidence": "trong thời hạn mười (10) ngày kể từ ngày giao kết hợp đồng người tiêu dùng có quyền đơn phương chấm dứt thực hiện hợp đồng"
+      }
+    ]
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo quy định hiện hành, nếu doanh nghiệp giao dịch từ xa cung cấp thông tin không chính xác hoặc không đầy đủ, người tiêu dùng có bao lâu để đơn phương chấm dứt hợp đồng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng.",
+    "filter": {
+      "legal_regime": "2023"
+    },
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 30,
+        "evidence": "Trong thời hạn 30 ngày kể từ ngày giao kết hợp đồng, đơn phương chấm dứt thực hiện hợp đồng đã giao kết"
+      }
+    ]
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo Nghị định 99/2011, một công dân muốn làm hòa giải viên tranh chấp tiêu dùng cần tối thiểu bao nhiêu năm kinh nghiệm công tác?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất năm (05) năm kinh nghiệm công tác.",
+    "filter": {
+      "legal_regime": "2010"
+    },
+    "gold": [
+      {
+        "source_id": "nd99_2011",
+        "page": 13,
+        "evidence": "Có ít nhất năm (05) năm kinh nghiệm công tác"
+      }
+    ]
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Khi doanh nghiệp đổi sản phẩm mới cho khách trong quá trình bảo hành thì thời hạn bảo hành của sản phẩm đó được tính từ khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tính (lại) từ thời điểm đổi sản phẩm, hàng hóa mới.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 23,
+        "evidence": "thời hạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm, hàng hóa"
+      },
+      {
+        "source_id": "luat59_2010",
+        "page": 10,
+        "evidence": "được tính từ thời điểm thay thế linh kiện, phụ kiện hoặc đổi hàng hóa mới"
+      }
+    ]
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Doanh nghiệp có được miễn bồi thường nếu đã thông tin đầy đủ mà người tiêu dùng vẫn cố ý dùng sản phẩm có khuyết tật gây thiệt hại không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Có, nếu doanh nghiệp đã áp dụng đầy đủ biện pháp tại Điều 32 và 33, người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 27,
+        "evidence": "người tiêu dùng đã tiếp nhận đầy đủ thông tin nhưng vẫn cố ý sử dụng sản phẩm, hàng hóa có khuyết tật gây thiệt hại"
+      }
+    ]
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Sản phẩm khuyết tật chỉ có thể gây hư hại tài sản của người tiêu dùng thì được xếp vào nhóm nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Nhóm B.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 25,
+        "evidence": "Sản phẩm, hàng hóa có khuyết tật nhóm B là sản phẩm, hàng hóa có khả năng gây thiệt hại cho tài sản của người tiêu dùng"
+      }
+    ]
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Cơ quan tiếp nhận đăng ký có bao nhiêu ngày để thẩm định hồ sơ đăng ký hợp đồng theo mẫu, và có được gia hạn không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "30 ngày kể từ ngày nhận hồ sơ hợp lệ; có thể gia hạn thêm tối đa không quá 30 ngày trong trường hợp phức tạp.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "nd55_2024",
+        "page": 7,
+        "evidence": "tiến hành thẩm định hồ sơ đăng ký trong thời hạn 30 ngày, kể từ ngày nhận được hồ sơ hợp lệ"
+      }
+    ]
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Doanh nghiệp bán hàng không tại địa điểm giao dịch thường xuyên phải gửi hồ sơ thông báo cho Ủy ban nhân dân cấp xã trước ít nhất bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tối thiểu 03 ngày làm việc trước khi thực hiện hoạt động.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "nd55_2024",
+        "page": 19,
+        "evidence": "tối thiểu 03 ngày làm việc trước khi thực hiện hoạt động"
+      }
+    ]
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu không xác định được người thụ hưởng, tiền bồi thường trong vụ án vì lợi ích công cộng do tổ chức xã hội hoạt động trong phạm vi một tỉnh khởi kiện sẽ được nộp vào đâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Nộp vào ngân sách địa phương.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "nd55_2024",
+        "page": 20,
+        "evidence": "hoạt động trên phạm vi một tỉnh, thành phố trực thuộc Trung ương khởi kiện sẽ nộp vào ngân sách địa phương"
+      }
+    ]
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Luật Bảo vệ quyền lợi người tiêu dùng năm 2010 bắt đầu có hiệu lực thi hành từ ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Từ ngày 01 tháng 7 năm 2011.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat59_2010",
+        "page": 20,
+        "evidence": "Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011."
+      }
+    ]
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Biên bản hòa giải tranh chấp tiêu dùng theo Luật 2010 phải có chữ ký của những ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat59_2010",
+        "page": 16,
+        "evidence": "Biên bản hòa giải phải có chữ ký của các bên tham gia hòa giải và chữ ký xác nhận của tổ chức, cá nhân tiến hành hòa giải."
+      }
+    ]
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo quy định trước năm 2024, nếu yêu cầu bảo vệ quyền lợi người tiêu dùng gửi cơ quan nhà nước còn thiếu nội dung thì người tiêu dùng phải bổ sung trong bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được yêu cầu bổ sung của cơ quan có thẩm quyền.",
+    "filter": {
+      "legal_regime": "2010"
+    },
+    "gold": [
+      {
+        "source_id": "nd99_2011",
+        "page": 9,
+        "evidence": "Việc bổ sung phải được thực hiện trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được yêu cầu của cơ quan có thẩm quyền."
+      }
+    ]
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "type": "ngoai_le",
+    "question": "Cơ quan quản lý nhà nước có tiếp nhận yêu cầu hỗ trợ thương lượng nếu người gửi yêu cầu không phải là người tiêu dùng không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không; đây là một trường hợp không tiếp nhận và giải quyết yêu cầu hỗ trợ thương lượng (trừ khi là người đại diện hợp pháp của người tiêu dùng).",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 43,
+        "evidence": "Người yêu cầu hỗ trợ thương lượng không phải là người tiêu dùng hoặc người đại diện hợp pháp của người tiêu dùng."
+      }
+    ]
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Ban quản lý chợ phải bố trí thiết bị gì để khách hàng tự kiểm tra khối lượng hàng hóa đã mua?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường tại chợ, trung tâm thương mại.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "nd55_2024",
+        "page": 4,
+        "evidence": "Đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường tại các chợ, trung tâm thương mại"
+      },
+      {
+        "source_id": "nd99_2011",
+        "page": 3,
+        "evidence": "Đặt và duy trì hoạt động của cân đối chứng, thiết bị đo lường tại các chợ, trung tâm thương mại"
+      }
+    ]
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Theo quy định hiện hành, hòa giải viên thuộc tổ chức hòa giải tranh chấp tiêu dùng cần có kỹ năng và hiểu biết gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Có kỹ năng hòa giải, hiểu biết pháp luật về bảo vệ quyền lợi người tiêu dùng và pháp luật khác có liên quan.",
+    "filter": {
+      "legal_regime": "2023"
+    },
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 46,
+        "evidence": "Có kỹ năng hòa giải, hiểu biết pháp luật về bảo vệ quyền lợi người tiêu dùng và pháp luật khác có liên quan"
+      }
+    ]
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Với hàng hóa bán năm 2015 (áp dụng luật cũ), khi phát hiện khuyết tật, nhà sản xuất phải thông báo công khai việc thu hồi trên báo hoặc đài như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất 05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài phát thanh, truyền hình tại địa phương nơi hàng hóa lưu thông.",
+    "filter": {
+      "legal_regime": "2010"
+    },
+    "gold": [
+      {
+        "source_id": "luat59_2010",
+        "page": 11,
+        "evidence": "ít nhất 05 số liên tiếp trên báo ngày hoặc 05 ngày liên tiếp trên đài phát thanh, truyền hình tại địa phương mà hàng hóa đó được lưu thông"
+      }
+    ]
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "type": "ngoai_le",
+    "question": "Tổ chức xã hội khởi kiện vụ án dân sự vì lợi ích công cộng để bảo vệ người tiêu dùng có phải chịu án phí không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không phải nộp tiền tạm ứng án phí và không phải chịu án phí.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 48,
+        "evidence": "vì lợi ích công cộng không phải nộp tiền tạm ứng án phí, không phải chịu án phí"
+      }
+    ]
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Nền tảng số lớn có chức năng tìm kiếm phải công khai điều gì về cách sắp xếp thứ tự hiển thị sản phẩm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Công bố công khai tiêu chí xác định ưu tiên hiển thị sản phẩm, hàng hóa, dịch vụ; nội dung có thu phí/được tài trợ phải công khai tại kết quả tìm kiếm.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "nd55_2024",
+        "page": 15,
+        "evidence": "Công bố công khai tiêu chí xác định ưu tiên hiển thị sản phẩm, hàng hóa, dịch vụ nếu nền tảng số có chức năng tìm kiếm."
+      }
+    ]
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Theo Nghị định 99/2011, cơ quan có thẩm quyền phải trả lời yêu cầu bảo vệ quyền lợi người tiêu dùng hợp lệ trong bao lâu, và có được gia hạn không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "15 ngày làm việc kể từ ngày tiếp nhận yêu cầu hợp lệ; vụ việc phức tạp có thể gia hạn nhưng không quá 15 ngày làm việc.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "nd99_2011",
+        "page": 10,
+        "evidence": [
+          "Trong thời hạn mười lăm (15) ngày làm việc kể từ ngày tiếp nhận yêu cầu bảo vệ quyền lợi người tiêu dùng hợp lệ",
+          "thời hạn trả lời có thể được gia hạn nhưng không quá mười lăm (15) ngày làm việc"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Sản phẩm đã bảo hành bao nhiêu lần trong thời hạn bảo hành mà vẫn không khắc phục được lỗi thì doanh nghiệp phải đổi mới hoặc trả lại tiền?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Từ 03 (ba) lần trở lên.",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "luat19_2023",
+        "page": 23,
+        "evidence": "từ 03 lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục được lỗi"
+      },
+      {
+        "source_id": "luat59_2010",
+        "page": 10,
+        "evidence": "từ ba lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục được lỗi"
+      }
+    ]
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Mức phạt tiền tối đa đối với tổ chức kinh doanh vi phạm pháp luật về bảo vệ quyền lợi người tiêu dùng là bao nhiêu đồng?",
+    "absence_reason": "Corpus chỉ nói tổ chức vi phạm 'bị xử phạt vi phạm hành chính' và 'Chính phủ quy định chi tiết việc xử phạt' (Luật 59/2010 Điều 11, trang 6); mức phạt nằm ở nghị định xử phạt riêng, không có trong 4 văn bản.",
+    "absence_check": {
+      "terms": [
+        "phạt tiền",
+        "mức phạt",
+        "phạt tối đa"
+      ],
+      "related_terms": [
+        "xử phạt"
+      ]
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Thời hiệu khởi kiện vụ án dân sự về bảo vệ quyền lợi người tiêu dùng là bao nhiêu năm?",
+    "absence_reason": "Corpus quy định ai được khởi kiện, điều kiện và thủ tục rút gọn nhưng không quy định thời hiệu khởi kiện (thuộc Bộ luật Dân sự / Tố tụng dân sự).",
+    "absence_check": {
+      "terms": [
+        "thời hiệu"
+      ],
+      "related_terms": [
+        "khởi kiện"
+      ]
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Khi hãng hàng không hủy chuyến bay, người tiêu dùng được hoàn lại bao nhiêu phần trăm giá vé?",
+    "absence_reason": "Không có quy định về vận tải hàng không, vé hay tỷ lệ hoàn tiền. Cụm 'hàng không' trong corpus chỉ xuất hiện trong 'bán hàng không tại địa điểm giao dịch thường xuyên' (bẫy lexical).",
+    "absence_check": {
+      "terms": [
+        "máy bay",
+        "chuyến bay",
+        "giá vé",
+        "phần trăm",
+        "%"
+      ],
+      "related_terms": [
+        "hàng không",
+        "hoàn tiền"
+      ]
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Thời hạn bảo hành tối thiểu bắt buộc đối với điện thoại di động là bao nhiêu tháng?",
+    "absence_reason": "Corpus quy định nghĩa vụ bảo hành và cách tính lại thời hạn bảo hành khi đổi/thay linh kiện, nhưng không đặt thời hạn tối thiểu cho bất kỳ loại hàng hóa nào.",
+    "absence_check": {
+      "terms": [
+        "điện thoại di động",
+        "bảo hành tối thiểu",
+        "tháng bảo hành"
+      ],
+      "related_terms": [
+        "thời hạn bảo hành"
+      ]
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Sàn thương mại điện tử phải khấu trừ thuế thu nhập cá nhân của người bán hàng theo thuế suất bao nhiêu?",
+    "absence_reason": "Corpus chỉ nhắc 'mã số thuế cá nhân' và 'thuế giá trị gia tăng' trong nghĩa vụ cung cấp thông tin (Luật 19/2023 Điều 37); không có quy định khấu trừ thuế hay thuế suất.",
+    "absence_check": {
+      "terms": [
+        "thuế thu nhập",
+        "thuế suất",
+        "khấu trừ"
+      ],
+      "related_terms": [
+        "thuế",
+        "thương mại điện tử"
+      ]
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "u06",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Chương trình khuyến mại giảm giá cho người tiêu dùng được giảm tối đa bao nhiêu phần trăm giá hàng hóa?",
+    "absence_reason": "Không có quy định về khuyến mại hay mức giảm giá tối đa (thuộc Luật Thương mại và nghị định về khuyến mại).",
+    "absence_check": {
+      "terms": [
+        "khuyến mại",
+        "phần trăm",
+        "%",
+        "giảm giá tối đa"
+      ],
+      "related_terms": [
+        "giảm giá"
+      ]
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  }
+]

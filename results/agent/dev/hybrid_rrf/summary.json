@@ -1,0 +1,89 @@
+{
+  "tag": "hybrid_rrf",
+  "split": "dev",
+  "config": {
+    "name": "hybrid_rrf",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 6000,
+    "max_searches": 3,
+    "neighbors": false,
+    "prompt": "v1",
+    "model": "claude-haiku-5-5",
+    "effort": "medium",
+    "max_tokens": 16000
+  },
+  "n": 21,
+  "status": {
+    "answered": 17,
+    "abstain": 4
+  },
+  "errors": [],
+  "tool_use": {
+    "n": 21,
+    "N": 21,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 4,
+    "2": 12,
+    "3": 5
+  },
+  "stop_reasons": {
+    "submitted": 17,
+    "model_insufficient_evidence": 4
+  },
+  "answerable": {
+    "context_evidence_rate": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "first_search_evidence_hit3": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "answered": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 18,
+      "rate": 0.0556
+    },
+    "answered_with_cited_evidence_auto": {
+      "n": 17,
+      "N": 18,
+      "rate": 0.9444
+    }
+  },
+  "unanswerable": {
+    "abstained": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    }
+  },
+  "citations": {
+    "total": 41,
+    "in_context": 41,
+    "answers_with_citation": {
+      "n": 17,
+      "N": 17,
+      "rate": 1.0
+    }
+  },
+  "tokens": {
+    "input": 125411,
+    "output": 15166
+  },
+  "cost_usd": 0.020124,
+  "latency_s": {
+    "median": 5.62,
+    "max": 8.96
+  },
+  "note": "Grounded answer, citation support và abstention đúng phải do người chấm trong review.json; các trường *_auto chỉ là gợi ý dựa trên gold sau khi chạy."
+}

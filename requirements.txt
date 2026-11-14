@@ -1,0 +1,7 @@
+# Day 7 dùng lại venv Day 6 (chromadb, sentence-transformers, torch CPU đã có),
+# chỉ thêm SDK Claude. Cài torch CPU trước nếu tạo venv mới — xem Day 6 starter/requirements.txt.
+anthropic==2.8.0
+python-dotenv>=1,<2
+chromadb==1.5.9
+sentence-transformers==6.3.0
+numpy==2.4.6

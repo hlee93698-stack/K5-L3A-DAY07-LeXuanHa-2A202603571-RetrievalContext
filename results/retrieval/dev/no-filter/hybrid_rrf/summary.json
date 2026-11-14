@@ -1,0 +1,42 @@
+{
+  "method": "hybrid_rrf",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "use_filter": false,
+  "n_answerable": 18,
+  "n_unanswerable": 3,
+  "hit1": {
+    "n": 15,
+    "N": 18,
+    "rate": 0.8333
+  },
+  "evidence_hit3": {
+    "n": 18,
+    "N": 18,
+    "rate": 1.0
+  },
+  "hit10": {
+    "n": 18,
+    "N": 18,
+    "rate": 1.0
+  },
+  "mrr10": 0.9074,
+  "context_evidence_rate": {
+    "n": 18,
+    "N": 18,
+    "rate": 1.0
+  },
+  "avg_context_chars": 2364.6,
+  "dropped_by_budget": 0,
+  "median_ms": 241.9,
+  "p90_ms": 361.9,
+  "cost_usd": 0.0,
+  "misses_at3": [],
+  "misses_at1": [
+    "d05",
+    "d12",
+    "d16"
+  ],
+  "setup_seconds_all_methods": 46.47
+}
